@@ -1,0 +1,14 @@
+CV_Dominic_Smith.pdf
+Math Camp Syllabus.pdf
+data/CRT/sum1977.pdf
+data/CRT/sum1982.pdf
+data/CRT/sum1987.pdf
+data/CRT/sum1992.pdf
+data/CRT/sum1997.pdf
+data/CRT/sum2002.pdf
+data/CRT/sum2007.pdf
+jmp_bls.pdf
+slides.pdf
+smith_cv.pdf
+smith_jmp.pdf
+smith_jmp2.pdf

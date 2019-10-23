@@ -1,0 +1,362 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style apalike2
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+Topics in Computation
+\begin_inset space \hfill{}
+\end_inset
+
+Fall 2019
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Department of Economics - University of Minnesota
+\begin_inset space \hfill{}
+\end_inset
+
+August 
+\begin_inset Formula $3^{rd}$
+\end_inset
+
+ to August 
+\begin_inset Formula $28^{th}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\series bold
+Instructor:
+\series default
+ Dominic Smith
+\series bold
+ 
+\begin_inset space \hrulefill{}
+\end_inset
+
+
+\series default
+ smit6226@umn.edu
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Course Overview and Objectives
+\end_layout
+
+\begin_layout Standard
+This course covers computation methods in a variety of fields.
+ The focus of the course is on acquiring tools to learn new estimation technique
+s, acquire data, and produce reproducible research.
+ Assignments will consist of programming exercises to give students hands-on
+ experience in a variety of topics.
+\end_layout
+
+\begin_layout Standard
+Students may work in groups on all programing exercises.
+ All assignments will be turned in via GitHub.
+ Students should email the professor with the name of the GitHub repository
+ they will use for the exercises.
+ Each exercise should be completed in a separate folder.
+ The folder should contain a script named 
+\begin_inset Quotes eld
+\end_inset
+
+Readme.sh
+\begin_inset Quotes erd
+\end_inset
+
+ which can be run to recreate the results.
+ All results should be output into either excel spreadsheets or tex files.
+ Assignments can be completed in any programming language you choose.
+ I recommend Python, Julia, or Matlab for students starting out.
+ Students are encouraged to follow the practices outlined in 
+\begin_inset Quotes eld
+\end_inset
+
+Code and Data for the Social Sciences: A Practitioners Guide
+\begin_inset Quotes erd
+\end_inset
+
+ which is available here http://www.brown.edu/Research/Shapiro/pdfs/CodeAndData.pdf.
+\end_layout
+
+\begin_layout Standard
+A key component of this class is improving programming ability.
+ With that in mind we will do regular code reviews.
+ In the beginning this will consist of the instructor taking examples from
+ code written by students and explaining how to improve it to the class.
+ As the semester progresses students will review each others code and suggest
+ improvements.
+\end_layout
+
+\begin_layout Section
+Course Outline
+\end_layout
+
+\begin_layout Standard
+I have outlined a number of possible topics indicating popular techniques
+ in multiple fields.
+ The specific topics we cover will depend on the interests of the students
+ in the class.
+\end_layout
+
+\begin_layout Description
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Background: Crash Course in Algorithms
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Recursion, dynamic programming, bisection
+\end_layout
+
+\begin_layout Enumerate
+Big-O notation
+\end_layout
+
+\begin_layout Enumerate
+Software Paradigms
+\end_layout
+
+\begin_layout Enumerate
+Version Control
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Basic Techniques
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Value function iteration
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Macro Techniques
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Combinatorial Optimization
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Antras, Fort, and Tintelnot (2017)
+\end_layout
+
+\begin_layout Enumerate
+Arkolakis and Eckert (2018)
+\end_layout
+
+\begin_layout Enumerate
+Jia
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Industrial Organization Techniques
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Inequality estimation: Pakes, Porter, Ho, and Ishi 
+\end_layout
+
+\begin_layout Enumerate
+Two Step Estimation: Arcidiacono, Bayer, Blevins, and Ellickson
+\end_layout
+
+\begin_layout Enumerate
+Counterfactuals
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Labor Techniques
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Machine Learning
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Regularized Regression
+\end_layout
+
+\begin_layout Enumerate
+Tree Classifiers
+\end_layout
+
+\begin_layout Enumerate
+Support Vector Machines
+\end_layout
+
+\begin_layout Enumerate
+Cross-Validation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Acquiring Data
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Basic Scraping
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Homework 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+References: 
+\end_layout
+
+\end_body
+\end_document

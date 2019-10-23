@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}</title>
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+        <link rel="canonical" href="{{site.baseurl}}{{page.url}}">
+        <!-- <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css"  /> -->
+        <link rel="stylesheet" href="{{site.baseurl}}/css/main.css"  />
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-102724930-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+        <script type=”text/javascript”>
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-102724930-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        var a = document.getElementsByTagName('a');
+        for(i = 0; i < a.length; i++){
+        if (a[i].href.indexOf(location.host) == -1 && a[i].href.match(/^http:///i)){
+        a[i].onclick = function(){
+        _gaq.push(['_trackEvent', 'outgoing_links', this.href.replace(/^http:///i, ”)]);
+        }
+        }
+        }
+        </script>
+
+        <script type=”text/javascript“>
+
+        var a = document.getElementsByTagName('a');
+        for(i = 0; i < a.length; i++){
+        if (a[i].href.indexOf(location.host) == -1 && a[i].href.match(/^http:///i)){
+        a[i].onclick = function(){
+        _gaq.push(['_trackEvent', 'outgoing_links', this.href.replace(/^http:///i, ”)]);
+        }
+        }
+        }
+
+        </script>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+        MathJax.Hub.Config({
+            config: ["MMLorHTML.js"],
+            extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+            jax: ["input/TeX"],
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: false
+            },
+            TeX: {
+                TagSide: "right",
+                TagIndent: ".8em",
+                MultLineWidth: "85%",
+                equationNumbers: {
+                   autoNumber: "AMS",
+                },
+                unicode: {
+                   fonts: "STIXGeneral,'Arial Unicode MS'"
+                }
+            },
+            showProcessingMessages: false
+        });
+</script>
+
+
+
+        <!-- <script src="{{site.baseurl}}/scripts/modernizr.custom.js"></script> -->
+        <!--[if IE 6]>
+            <style type="text/css">
+                #navigation {
+                    margin:0px 0 15px 0;
+                }
+            </style>
+        <![endif]]-->
+    </head>
+    <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLP7DNP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <div id="contents">
+            <header role="banner" class="page-header" id="top">
+            <div class="container">
+                <div class="header">
+                    <h1>Dominic A Smith</h1>
+                    <p class="header_txt">ds@dominic-smith.com<br>
+                        <br/>
+                        <br/>
+                        <br/>
+                                          
+                    <ul class="menu">
+                        <li><a href="{{site.baseurl}}/index.html" title="Home" class="current" ><span>Home</span></a></li>
+                        <li><a href="{{site.baseurl}}/CV_Dominic_Smith.pdf" title="CV" target="_blank"><span>CV</span></a></li>
+                        <li><a href="{{site.baseurl}}/#research" title="Research"><span>Research</span></a></li>
+                        <li><a href="{{site.baseurl}}/data.html" title="Data"><span>Data</span></a></li>
+                        <li><a href="{{site.baseurl}}/teaching.html" title="Teaching"><span>Teaching</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            </header>
+        </div>
+        <div class = "main_text">
+            {{content}}
+        </div>
+        {% include footer.html %}
+
+
+    </body>
+
+</html>
