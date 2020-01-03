@@ -32,12 +32,18 @@ layout: default
 <div id="research">
     <a name="research"></a>
 
+<h2>Work in Progress</h2>
+                <div class="paper">The Evolution of U.S. Retail Concentration</div>
+                <div class="coauthors"> with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> </div>
 
-            <h2>Job Market Paper</h2>
+               <div class="summary">Email for old draft.  New draft waiting on Census disclosure.</div>
+                <div class="summary">Increases in concentration across various sectors are a salient feature of industry dynamics in the U.S. and other developed countries during the past 30 years. This trend is particularly notable in the U.S. retail sector, which has changed over the past three decades from one with many small local firms to one dominated by large national firms. Existing work on concentration focuses on nationwide changes (the national Herfindahl-Hirschman index more than doubled between 1997 and 2007). Yet, less is known about the dynamics of concentration in local markets, and the relationship between local and national trends.  %and the growing importance of multi-product general merchandisers who compete across industries.  We address this issue by providing a novel decomposition of national concentration into a local and a cross-market component. We use new data on store-level revenue for all U.S. retailers by 20 major categories of goods to measure concentration in local markets at the product level. Despite local concentration increasing during the last three decades (the Herfindahl-Hirschman index increased 50 percent), we show that the rise in national concentration is driven almost exclusively by the expansion of large firms into more markets, with changes in local concentration having little impact on national trends.</div>
+
+            <h2>Inactive Project</h2>
                 <div class="paper">Concentration and Foreign Sourcing in the U.S. Retail Sector </div>
                <div class="links">[<a href="{{site.baseurl}}/smith_jmp2.pdf" rel="noopener noreferrer" target="_blank" onclick="ga('send','event',{eventCategory:'PDF',eventAction:'jmp',eventLabel:'S',eventValue:5});">Paper</a>]</div>
-
-                <div class="summary">The U.S. retail sector has changed over the past three decades from one with many small firms to one dominated by large firms.  Simultaneously, foreign sourcing of consumer goods has increased substantially, with much of that increase driven by large retailers' imports from China. This study examines the role of direct imports from China in the transformation of the U.S. retail sector.  I propose two changes to measuring concentration.  Existing work on concentration tends to study its evolution using national, industry-level data, but these metrics provide an incomplete picture given the local nature of competition in retail and the growing importance of multi-product general merchandisers who compete across industries.  I therefore construct new data on store-level revenue for all U.S. retailers by 20 major categories of goods.  While the national product-level Herfindahl-Hirschman Index more than doubled between 1997 and 2007, local concentration increased by only 50 percent.  By constructing new local-by-product concentration measures, an analysis of the role of globalization in increased concentration can be performed.  I construct a measure of each small store's exposure to direct imports of large retailers.  Using a store-level Bartik instrument (1991), the results suggest that a one percentage point increase in exposure to direct imports leads to a 0.7-1.7 percentage point increase in the probability a small store exits.  I use a dynamic, continuous-time entry model to estimate the net effect of imports on the structure of competition in clothing sales, a product category highly exposed to direct imports.  I find that direct imports account for at least 14 percent of the decrease in the number of small clothing stores.     </div>
+               <div class="summary">Results in this paper have been moved into other projects.</div>
+                
 
 <!--
             <h2>Work in Progress</h2>
