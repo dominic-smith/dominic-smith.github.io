@@ -18,8 +18,10 @@ layout: default
                 <p>
                     <strong>Dominic A Smith</strong><br/>
                     <a href="mailto:ds@dominic-smith.com">ds@dominic-smith.com</a><br/>
+                    Work Email<br />
+                    <a href="mailto:smith.dominic@bls.gov">smith.dominic@bls.gov</a><br/>
                     Research Economist<br/>
-                    Bureau of Labor Statistics
+                    Bureau of Labor Statistics (BLS)
                 </p>
 
 
