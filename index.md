@@ -37,8 +37,6 @@ layout: default
 <h2>Work in Progress</h2>
                 <div class="paper"><a href="https://www.bls.gov/osmr/research-papers/2020/pdf/ec200080.pdf" rel="noopener noreferrer" target="_blank">The Evolution of U.S. Retail Concentration</a> BLS Working Paper 526</div>
                 <div class="coauthors"> with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> </div>
-
-               <div class="summary">BLS Working Paper 526</div>
                 <div class="summary">Increases in concentration are a salient feature of industry dynamics during the past 30 years. This trend is particularly notable in the U.S. retail sector, where large national firms have replaced small local firms. Existing work focuses on national trends. Yet, less is known about the dynamics of concentration in local markets, and the relationship between local and national trends. We address this issue by providing a novel decomposition of the national Herfindahl-Hirschman Index into a local and a cross-market component. We measure concentration using new data on product-level revenue for all U.S. retail stores. Despite concentration increasing in 83 percent of markets between 1997 and 2007, the cross-market component explains 98 percent of the rise in national concentration, reflecting the expansion of multi-market firms. We estimate an oligopoly model of retail competition and find that the increase in markups implied by rising local concentration had a modest effect on retail prices.</div>
 <div class ="figures">
 <strong>Key Equation:</strong> National HHI = 0.02xLocal HHI + 0.98xCross-Market HHI

@@ -194,7 +194,8 @@ div.main_text {
 }
 
 .figures {
-  text-size: 85%;
+  text-size: 90%;
+  font-weight: 200;
 }
 
 .column {
@@ -203,7 +204,7 @@ div.main_text {
 
 @media (min-width: 680px) {
   body {
-  max-width: 950px;
+  max-width: 1200px;
   vertical-align: middle;
 }
 div.main_text {
