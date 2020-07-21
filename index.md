@@ -35,13 +35,49 @@ layout: default
     <a name="research"></a>
 
 <h2>Work in Progress</h2>
-                <div class="paper">The Evolution of U.S. Retail Concentration</div>
+                <div class="paper"><a href="https://www.bls.gov/osmr/research-papers/2020/pdf/ec200080.pdf" rel="noopener noreferrer" target="_blank">The Evolution of U.S. Retail Concentration</a> BLS Working Paper 526</div>
                 <div class="coauthors"> with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> </div>
 
-               <div class="summary">Email for old draft.  New draft waiting on Census disclosure.</div>
-                <div class="summary">Increases in concentration across various sectors are a salient feature of industry dynamics in the U.S. and other developed countries during the past 30 years. This trend is particularly notable in the U.S. retail sector, which has changed over the past three decades from one with many small local firms to one dominated by large national firms. Existing work on concentration focuses on nationwide changes (the national Herfindahl-Hirschman index more than doubled between 1997 and 2007). Yet, less is known about the dynamics of concentration in local markets, and the relationship between local and national trends.  %and the growing importance of multi-product general merchandisers who compete across industries.  We address this issue by providing a novel decomposition of national concentration into a local and a cross-market component. We use new data on store-level revenue for all U.S. retailers by 20 major categories of goods to measure concentration in local markets at the product level. Despite local concentration increasing during the last three decades (the Herfindahl-Hirschman index increased 50 percent), we show that the rise in national concentration is driven almost exclusively by the expansion of large firms into more markets, with changes in local concentration having little impact on national trends.</div>
+               <div class="summary">BLS Working Paper 526</div>
+                <div class="summary">Increases in concentration are a salient feature of industry dynamics during the past 30 years. This trend is particularly notable in the U.S. retail sector, where large national firms have replaced small local firms. Existing work focuses on national trends. Yet, less is known about the dynamics of concentration in local markets, and the relationship between local and national trends. We address this issue by providing a novel decomposition of the national Herfindahl-Hirschman Index into a local and a cross-market component. We measure concentration using new data on product-level revenue for all U.S. retail stores. Despite concentration increasing in 83 percent of markets between 1997 and 2007, the cross-market component explains 98 percent of the rise in national concentration, reflecting the expansion of multi-market firms. We estimate an oligopoly model of retail competition and find that the increase in markups implied by rising local concentration had a modest effect on retail prices.</div>
+<div class ="figures">
+<strong>Key Equation:</strong> National HHI = 0.02xLocal HHI + 0.98xCross-Market HHI
+<ul>
+<li>National concentration measures do not respond to local changes</li>
+<li>Instead, national HHI depends on cross-market HHI (people in different markets shopping at the same firms)</li>
+</ul>
+<div class="row">
+  <div class="column">
+    <figure>
+      <img src="{{site.baseurl}}/images/hhi.jpg" alt="HHI" >
+      <figcaption>Retail concentration has increased at the national and local level. <br>
+        National Concentration accelerates in 1997 - Local concentration does not
+      </figcaption>
+    </figure>
 
-        
+  </div>
+  <div class="column">
+    <figure>
+      <img src="{{site.baseurl}}/images/distr.jpg" alt="HHI" >
+      <figcaption>83 percent of local markets (commuting zones) have increased concentration 97-07</figcaption>
+    </figure>
+  </div>
+</div>
+  <div class="row">
+  <div class="column">
+    <figure>
+      <img src="{{site.baseurl}}/images/prod.jpg" alt="HHI" >
+      <figcaption>Increase in local concentration happens across products</figcaption>
+    </figure>
+  </div>
+  <div class="column">
+    <figure>
+      <img src="{{site.baseurl}}/images/markup.jpg" alt="HHI" >
+      <figcaption>Change in markups implied by change in local HHI in <strong>simple model</strong> of Cournot competition</figcaption>
+    </figure>
+  </div>
+</div>
+</div>
 <!--
             <h2>Work in Progress</h2>
             <div class="paper"> The Evolution of Retail Concentration</div>
@@ -59,7 +95,7 @@ layout: default
                 <div class="paper">Concentration and Foreign Sourcing in the U.S. Retail Sector </div>
                <div class="links">[<a href="{{site.baseurl}}/smith_jmp2.pdf" rel="noopener noreferrer" target="_blank" onclick="ga('send','event',{eventCategory:'PDF',eventAction:'jmp',eventLabel:'S',eventValue:5});">Paper</a>]</div>
                <div class="summary">Results in this paper have been moved into other projects.</div>
-                
+
 
 
 <br/><br/>

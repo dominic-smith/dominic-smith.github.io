@@ -27,7 +27,13 @@ footer {
    clear:both;
 }
 
-
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
 
 
 .header ul
@@ -115,6 +121,9 @@ img {
 
 }
 
+figcaption {
+  font-size: 85%;
+}
 
 
 
@@ -184,7 +193,13 @@ div.main_text {
 
 }
 
+.figures {
+  text-size: 85%;
+}
 
+.column {
+  width: 100%;
+}
 
 @media (min-width: 680px) {
   body {
@@ -224,6 +239,19 @@ div.main_text {
 
 #research {
   float:left;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 47%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 }
