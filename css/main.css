@@ -123,6 +123,7 @@ img {
 
 figcaption {
   font-size: 85%;
+  text-align: center;
 }
 
 
@@ -247,6 +248,12 @@ div.main_text {
   float: left;
   width: 47%;
 }
+
+#special {
+  width: 160%;
+
+}
+
 
 /* Clear floats after image containers */
 .row::after {

@@ -56,7 +56,7 @@ layout: default
   </div>
   <div class="column">
     <figure>
-      <img src="{{site.baseurl}}/images/distr.jpg" alt="HHI" >
+      <img src="{{site.baseurl}}/images/distr.jpg" alt="HHI"  >
       <figcaption>83 percent of local markets (commuting zones) have increased concentration 97-07</figcaption>
     </figure>
   </div>
@@ -64,7 +64,7 @@ layout: default
   <div class="row">
   <div class="column">
     <figure>
-      <img src="{{site.baseurl}}/images/prod.jpg" alt="HHI" >
+      <img src="{{site.baseurl}}/images/prod.jpg" alt="HHI" id="special">
       <figcaption>Increase in local concentration happens across products</figcaption>
     </figure>
   </div>
