@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dominic Smith - University of Minnesota Economics  Student
+title: Dominic Smith - Economist at the Bureau of Labor Statistics
 email: dominic.smith2@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Personal webpage for Dominic Smith.  Economics  Ph.D. student at the University of Minnesota (UMN)
+  Personal webpage for Dominic Smith.  Economist at the Bureau of Labor Statistics (BLS)
 baseurl: "" # the subpath of your site, e.g. /blog
 
 url: "http://dominic-smith.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dominic_a_smith
-github_username:  aloysius926
+github_username:  dominic-smith
 
 # Build settings
 markdown: kramdown
