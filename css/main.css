@@ -79,17 +79,10 @@ h3 {
   font-size: 18pt;
 }
 
-.picture img {
+img {
     max-width: 100%;
     height: auto;
-    width: auto; /* ie8 */
-}
-
-
-.figures img {
-    max-width: 100%;
-    height: auto;
-    width: 100%; /* ie8 */
+    width: auto\9; /* ie8 */
 }
 
 .paper {

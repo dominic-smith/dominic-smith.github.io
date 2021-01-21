@@ -47,7 +47,7 @@ layout: default
 <div class="row">
   <div class="column">
     <figure>
-      <img src="{{site.baseurl}}/images/hhi.pdf" alt="HHI" >
+      <img src="{{site.baseurl}}/images/hhi.png" alt="HHI" >
       <figcaption>Retail concentration has increased at the national and local level. <br>
         National Concentration accelerates in 1997 - Local concentration does not
       </figcaption>
@@ -56,7 +56,7 @@ layout: default
   </div>
   <div class="column">
     <figure>
-      <img src="{{site.baseurl}}/images/distr.pdf" alt="HHI" >
+      <img src="{{site.baseurl}}/images/distr.png" alt="HHI" >
       <figcaption>69 percent of local markets (commuting zones) have increased concentration 92-02</figcaption>
     </figure>
   </div>
@@ -64,7 +64,7 @@ layout: default
   <div class="row">
   <div class="column">
     <figure>
-      <img src="{{site.baseurl}}/images/prod.pdf" alt="HHI" id="special">
+      <img src="{{site.baseurl}}/images/prod.png" alt="HHI" id="special">
       <figcaption>Increase in local concentration happens across products</figcaption>
     </figure>
   </div>
