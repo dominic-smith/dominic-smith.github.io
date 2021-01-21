@@ -82,7 +82,7 @@ h3 {
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: 100%; /* ie8 */
 }
 
 .paper {
@@ -197,6 +197,7 @@ div.main_text {
 .figures {
   text-size: 90%;
   font-weight: 200;
+
 }
 
 .column {
@@ -246,7 +247,7 @@ div.main_text {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 47%;
+  width: 50%;
 }
 
 #special {
