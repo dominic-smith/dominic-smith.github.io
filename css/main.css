@@ -79,7 +79,14 @@ h3 {
   font-size: 18pt;
 }
 
-img {
+.picture img {
+    max-width: 100%;
+    height: auto;
+    width: auto; /* ie8 */
+}
+
+
+.figures img {
     max-width: 100%;
     height: auto;
     width: 100%; /* ie8 */
