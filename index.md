@@ -35,7 +35,7 @@ layout: default
     <a name="research"></a>
 
 <h2>Work in Progress</h2>
-                <div class="paper"><a href="https://www.bls.gov/osmr/research-papers/2020/pdf/ec200080.pdf" rel="noopener noreferrer" target="_blank">The Evolution of U.S. Retail Concentration</a> [Submitted] <br> BLS Working Paper 526</div>
+                <div class="paper">The Evolution of U.S. Retail Concentration (Submitted) <br> [<a href="http://www.google.com/url?q=http%3A%2F%2Focamp020.github.io%2FSmith_Ocampo_2021_The_Evolution_of_U_S__Retail_Concentration.pdf&sa=D&sntz=1&usg=AFQjCNEONyaSYK94V6wRffXBWyvdu1e98g" rel="noopener noreferrer" target="_blank">Newest Version</a>] [<a href="https://www.bls.gov/osmr/research-papers/2020/pdf/ec200080.pdf" rel="noopener noreferrer" target="_blank">BLS Working Paper 526</a>]</div>
                 <div class="coauthors"> with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> </div>
                 <div class="summary">Increases in concentration have been a salient feature of industry dynamics during the past 30 years. This trend is particularly notable in the U.S. retail sector, where large national firms have displaced small local firms. Existing work focuses on national trends, yet less is known about the dynamics of concentration in local markets and the relationship between local and national trends. We address these issues by providing a novel decomposition of the national Herfindahl-Hirschman Index into a local and a cross-market component.  We measure concentration using new data on product-level revenue for all U.S. retail stores and find that despite local concentration increasing by 34 percent between 1992 and 2012, the cross-market component explains 99 percent of the rise in national concentration, reflecting the expansion of multi-market firms. We estimate an oligopoly model of retail competition and find that the increase in markups implied by rising local concentration had a modest effect on retail prices.</div>
 <div class ="figures">
@@ -84,6 +84,9 @@ layout: default
             <div class="paper">Imports and Retailer Markups</div>
 -->
             <h2>Publications</h2>
+                <div class="paper">Unit Value Indexes for Exports - New Developments Using Administrative Trade Data. Journal of Official Statistics (Forthcoming)</div>
+                <div class="coauthors"> with Don Fast and Susan Fleck</div>
+  
                 <div class="paper"> The Scope of U.S. Factoryless Manufacturing - 2015</div>
                 <div class="coauthors"> with <a href="http://www.federalreserve.gov/econresdata/kimberly-n-bayard.htm" rel="noopener noreferrer" target="_blank">Kimberly Bayard</a> and <a href="http://www.federalreserve.gov/econresdata/david-m-byrne.htm" rel="noopener noreferrer" target="_blank">David Byrne</a></div>
                 <div class="links">[<a href="http://research.upjohn.org/cgi/viewcontent.cgi?filename=13&article=1250&context=up_press&type=additional" rel="noopener noreferrer" target="_blank">Paper</a>]</div>
