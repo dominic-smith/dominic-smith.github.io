@@ -84,8 +84,9 @@ layout: default
             <div class="paper">Imports and Retailer Markups</div>
 -->
             <h2>Publications</h2>
-                <div class="paper">Unit Value Indexes for Exports - New Developments Using Administrative Trade Data. Journal of Official Statistics (Forthcoming)</div>
+                <div class="paper">Unit Value Indexes for Exports - New Developments Using Administrative Trade Data. Journal of Official Statistics 2022</div>
                 <div class="coauthors"> with Don Fast and Susan Fleck</div>
+               <div class="links">[<a href="https://doi.org/10.2478/jos-2022-0005" rel="noopener noreferrer" target="_blank">Paper</a>]</div>
   
                 <div class="paper"> The Scope of U.S. Factoryless Manufacturing - 2015</div>
                 <div class="coauthors"> with <a href="http://www.federalreserve.gov/econresdata/kimberly-n-bayard.htm" rel="noopener noreferrer" target="_blank">Kimberly Bayard</a> and <a href="http://www.federalreserve.gov/econresdata/david-m-byrne.htm" rel="noopener noreferrer" target="_blank">David Byrne</a></div>
