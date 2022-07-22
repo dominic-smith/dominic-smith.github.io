@@ -73,21 +73,10 @@ layout: default
       <figcaption>Increase in local concentration happens across products</figcaption>
     </figure>
   </div>
- <!--
-  <div class="column">
-    <figure>
-      <img src="{{site.baseurl}}/images/markup.jpg" alt="HHI" >
-      <figcaption>Change in markups implied by change in local HHI in <strong>simple model</strong> of Cournot competition</figcaption>
-    </figure>
-  </div>
--->
+
 </div>
 </div>
-<!--
-            <h2>Work in Progress</h2>
-            <div class="paper"> The Evolution of Retail Concentration</div>
-            <div class="paper">Imports and Retailer Markups</div>
--->
+
             <h2>Publications</h2>
                 <div class="paper">Unit Value Indexes for Exports - New Developments Using Administrative Trade Data. Journal of Official Statistics 2022</div>
                 <div class="coauthors"> with Don Fast and Susan Fleck</div>
