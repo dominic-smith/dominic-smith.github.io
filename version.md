@@ -1,3 +1,9 @@
+---
+layout: page
+title: Version System
+mathjax: true
+permalink: /version/
+---
 # Version Numbering System
 
 <br>
