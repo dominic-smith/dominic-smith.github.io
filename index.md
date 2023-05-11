@@ -92,7 +92,7 @@ layout: default
 
     <h2>Inactive Project</h2>
                 <div class="paper">Concentration and Foreign Sourcing in the U.S. Retail Sector </div>
-               <div class="links">[<a href="{{site.baseurl}}/smith_jmp2.pdf" rel="noopener noreferrer" target="_blank" onclick="ga('send','event',{eventCategory:'PDF',eventAction:'jmp',eventLabel:'S',eventValue:5});">Paper</a>]</div>
+               <div class="links">[<a href="{{site.baseurl}}/smith_jmp.pdf" rel="noopener noreferrer" target="_blank" onclick="ga('send','event',{eventCategory:'PDF',eventAction:'jmp',eventLabel:'S',eventValue:5});">Paper</a>]</div>
                <div class="summary">Results in this paper have been moved into other projects.</div>
 
 
