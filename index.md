@@ -38,44 +38,13 @@ layout: default
   
   <div class="paper">How Robust are Robust Measures of PCE Inflation? <br> [<a href="https://arxiv.org/pdf/2207.12494" rel="noopener noreferrer" target="_blank">Paper</a>][<a href="https://cepr.org/active/publications/discussion_papers/dp.php?dpno=17485" rel="noopener noreferrer" target="_blank">CEPR Discussion Paper</a>]</div>
                 <div class="coauthors"> with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> and <a href="https://people.brandeis.edu/~schoenle/" rel="noopener noreferrer" target="_blank">Raphael Schoenle</a> </div>
- <div class="summary">Time series data for robust inflation measures, such as median and trimmed mean inflation, only start in 1977. We extend these series back to 1960 for Personal Consumption Expenditure (PCE) inflation, providing additional episodes of high and rising inflation.  We evaluate the robustness of the series along multiple dimensions: First, we find that robust inflation measures tend to diverge in periods of low inflation, but agree when headline inflation is high. The range between the robust measures averages 0.76 percentage points. Second, using yearly instead of monthly inflation when trimming or computing median inflation produces markedly different time series.  Third, by contrast, variation in the number of PCE categories used in calculation and trim points for trimmed means do not have significant effects. Finally, we compare the performance of 61 robust inflation measures in predicting (current and future) trend inflation. Trimmed mean measures that trim based on yearly inflation perform best overall, while core inflation performs well when inflation is low, and median inflation consistently underperforms. </div> 
+ <div class="summary">We evaluate the forecasting performance of a wide set of robust inflation measures between 1960 and 2022, including official median and trimmed-mean personal-consumption-expenditure inflation. When trimming out different expenditure categories with the highest and lowest inflation rates, we find that the optimal trim points vary widely across time and also depend on the choice of target; optimal trims are higher when targeting future trend inflation or for a 1970s-1980s subsample. Surprisingly, there are no grounds to select a single series on the basis of forecasting performance. A wide range of trims-including those of the official robust measures-have an average prediction error that makes them  statistically indistinguishable from the best-performing trim. Despite indistinguishable average errors, these trims imply different predictions for trend inflation in any given month, within a range of 0.5 to 1 percentage points, suggesting the use of a set of near-optimal trims.  </div> 
   
                 <div class="paper">The Evolution of U.S. Retail Concentration (R&R AEJ:Macro) <br> [<a href="https://ocamp020.github.io/SO_Concentration.pdf" rel="noopener noreferrer" target="_blank">Newest Version</a>] [<a href="https://www.bls.gov/osmr/research-papers/2020/pdf/ec200080.pdf" rel="noopener noreferrer" target="_blank">BLS Working Paper 526</a>]</div>
                 <div class="coauthors"> with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> </div>
-                <div class="summary">Increases in concentration have been a salient feature of industry dynamics during the past 30 years. This trend is particularly notable in the U.S. retail sector, where large national firms have displaced small local firms. Existing work focuses on national trends, yet less is known about the dynamics of concentration in local markets and the relationship between local and national trends. We address these issues by providing a novel decomposition of the national Herfindahl-Hirschman Index into a local and a cross-market component.  We measure concentration using new data on product-level revenue for all U.S. retail stores and find that despite local concentration increasing by 34 percent between 1992 and 2012, the cross-market component explains 99 percent of the rise in national concentration, reflecting the expansion of multi-market firms. We estimate an oligopoly model of retail competition and find that the increase in markups implied by rising local concentration had a modest effect on retail prices.</div>
-<div class ="figures">
-<strong>Key Equation:</strong> National HHI = 0.02xLocal HHI + 0.98xCross-Market HHI
-<ul>
-<li>National concentration measures do not respond to local changes</li>
-<li>Instead, national HHI depends on cross-market HHI (people in different markets shopping at the same firms)</li>
-</ul>
-<div class="row">
-  <div class="column">
-    <figure>
-      <img src="{{site.baseurl}}/images/hhi.png" alt="HHI" >
-      <figcaption>Retail concentration has increased at the national and local level. <br>
-        National Concentration accelerates in 1997 - Local concentration does not
-      </figcaption>
-    </figure>
+                <div class="summary">Increases in national concentration have been a salient feature of industry dynamics in the U.S. and have contributed to concerns about increasing market power.
+Yet, local trends may be more informative about market power, particularly in the retail sector where consumers have traditionally shopped at nearby stores. We find that local concentration has increased almost in parallel with national concentration using novel Census data on product-level revenue for all U.S. retail stores between 1992 and 2012. The increases in concentration are broad based, affecting most markets, products, and retail industries. We show that the expansion of multi-market firms into new markets explains most of the increase in national retail concentration, with consolidation via increases in local market shares increasing in importance between 1997 and 2007, and single-market firms playing a negligible role. Finally, we find that increases in local concentration can explain one-quarter to one-third of the observed rise in retail gross margins.</div>
 
-  </div>
-  <div class="column">
-    <figure>
-      <img src="{{site.baseurl}}/images/distr.png" alt="HHI" >
-      <figcaption>69 percent of local markets (commuting zones) have increased concentration 92-02</figcaption>
-    </figure>
-  </div>
-</div>
-  <div class="row">
-  <div class="column">
-    <figure>
-      <img src="{{site.baseurl}}/images/prod.png" alt="HHI" id="special">
-      <figcaption>Increase in local concentration happens across products</figcaption>
-    </figure>
-  </div>
-
-</div>
-</div>
 
             <h2>Publications</h2>
                 <div class="paper">Unit Value Indexes for Exports - New Developments Using Administrative Trade Data. Journal of Official Statistics 2022</div>
