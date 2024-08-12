@@ -1,4 +1,3 @@
-# Kidlympics
 
 ## Schedule
 10am - Opening Ceremony
