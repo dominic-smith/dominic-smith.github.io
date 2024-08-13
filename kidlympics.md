@@ -1,10 +1,13 @@
  <div class="paper">
-# Kidlympics
+
 </div>
+# Kidlympics
+
 ## Schedule
-10am - Opening Ceremony
-10-11 - Competition
-11 - Awards and closing ceremony
+
+* 10am - Opening Ceremony
+* 10-11 - Competition
+* 11 - Awards and closing ceremony
 
 
 ## Kids Events
