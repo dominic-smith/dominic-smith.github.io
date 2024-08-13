@@ -3,6 +3,11 @@
 </div>
 # Kidlympics
 
+## Things to Bring
+
+* Bike/helmet for slow bike race if you don't want to use ours.
+* Swimsuit if your kid is sensitive about being wet. We'll have towels.
+
 ## Schedule
 
 * 10am - Opening Ceremony
