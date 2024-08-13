@@ -1,7 +1,5 @@
- <div class="paper">
 
-</div>
-# Kidlympics
+## Kidlympics
 
 ## Things to Bring
 
