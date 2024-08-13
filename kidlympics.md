@@ -20,6 +20,7 @@
 * Low Jump - Limbo where kids are also allowed to duck.
 * Slow bike race - Bike from start to finish line in as much time as possible without putting a foot down.
 * Obstacle course - Fastest time wins
+* 50 meter dash - Earn the title of "Block's fastest kid."
 * Pommel Horse - Spin in a circle around a table. 
 
 ## Possible Parent Event
