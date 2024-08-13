@@ -22,4 +22,6 @@
 * Obstacle course - Fastest time wins
 * Pommel Horse - Spin in a circle around a table. 
 
+## Possible Parent Event
 
+* Recite a kids book from memory and kids rate your performance.
