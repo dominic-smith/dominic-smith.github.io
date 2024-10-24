@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 title: Publications
-mathjax: true
-permalink: /Publications/
+
+
 ---
 
 ## Work in Progress
