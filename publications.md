@@ -1,8 +1,9 @@
-<h2>Work in Progress</h2>
+## Work in Progress
   
-  <div class="paper">Extending the Range of Robust PCE Inflation Measures <br> [<a href="https://arxiv.org/pdf/2207.12494" rel="noopener noreferrer" target="_blank">Paper</a>][<a href="https://cepr.org/active/publications/discussion_papers/dp.php?dpno=17485" rel="noopener noreferrer" target="_blank">CEPR Discussion Paper</a>]</div>
-                <div class="coauthors"> with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> and <a href="https://people.brandeis.edu/~schoenle/" rel="noopener noreferrer" target="_blank">Raphael Schoenle</a> </div>
- <div class="summary">We evaluate the forecasting performance of a wide set of robust inflation measures between 1960 and 2022, including official median and trimmed-mean personal-consumption-expenditure inflation. When trimming out different expenditure categories with the highest and lowest inflation rates, we find that the optimal trim points vary widely across time and also depend on the choice of target; optimal trims are higher when targeting future trend inflation or for a 1970s-1980s subsample. Surprisingly, there are no grounds to select a single series on the basis of forecasting performance. A wide range of trims-including those of the official robust measures-have an average prediction error that makes them  statistically indistinguishable from the best-performing trim. Despite indistinguishable average errors, these trims imply different predictions for trend inflation in any given month, within a range of 0.5 to 1 percentage points, suggesting the use of a set of near-optimal trims.  </div> 
+Extending the Range of Robust PCE Inflation Measures {.paper} 
+[<a href="https://arxiv.org/pdf/2207.12494" rel="noopener noreferrer" target="_blank">Paper</a>][<a href="https://cepr.org/active/publications/discussion_papers/dp.php?dpno=17485" rel="noopener noreferrer" target="_blank">CEPR Discussion Paper</a>]</div>
+with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> and <a href="https://people.brandeis.edu/~schoenle/" rel="noopener noreferrer" target="_blank">Raphael Schoenle</a> {.coauthors}
+We evaluate the forecasting performance of a wide set of robust inflation measures between 1960 and 2022, including official median and trimmed-mean personal-consumption-expenditure inflation. When trimming out different expenditure categories with the highest and lowest inflation rates, we find that the optimal trim points vary widely across time and also depend on the choice of target; optimal trims are higher when targeting future trend inflation or for a 1970s-1980s subsample. Surprisingly, there are no grounds to select a single series on the basis of forecasting performance. A wide range of trims-including those of the official robust measures-have an average prediction error that makes them  statistically indistinguishable from the best-performing trim. Despite indistinguishable average errors, these trims imply different predictions for trend inflation in any given month, within a range of 0.5 to 1 percentage points, suggesting the use of a set of near-optimal trims. {.summary}
   
    <div class="paper">Productivity Dispersion and Structural Change in Retail Trade <br> [<a href="https://ideas.repec.org/p/cen/wpaper/23-60.html" rel="noopener noreferrer" target="_blank">Paper</a>]</div>
                 <div class="coauthors"> with <a href="https://www.amherst.edu/people/facstaff/jblackwood" rel="noopener noreferrer" target="_blank">Jake Blackwood</a>, <a href="https://www.bls.gov/dpr/authors/giandrea.htm" rel="noopener noreferrer" target="_blank">Michael Giandrea</a>, <a href="https://scholar.google.com/citations?user=QI1W0ckAAAAJ&hl=en" rel="noopener noreferrer" target="_blank">Cheryl Grim</a>,<a href="https://scholar.google.com/citations?user=dv8tVWIAAAAJ&hl=en" rel="noopener noreferrer" target="_blank">    Jay Stewart</a>, and <a href="https://newlighttechnologies.com/staff/zoltan-wolf" rel="noopener noreferrer" target="_blank">Zoltan Wolf</a> </div>
@@ -10,7 +11,7 @@
                  
 
 
-            <h2>Publications</h2>
+## Publications
 <div class="paper">The Evolution of U.S. Retail Concentration (Forthcoming AEJ:Macro) <br> [<a href="https://ocamp020.github.io/SO_Concentration.pdf" rel="noopener noreferrer" target="_blank">Newest Version</a>] [<a href="https://www.bls.gov/osmr/research-papers/2020/pdf/ec200080.pdf" rel="noopener noreferrer" target="_blank">BLS Working Paper 526</a>]</div>
                 <div class="coauthors"> with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> </div>
                 <div class="summary">Increases in national concentration have been a salient feature of industry dynamics in the U.S. and have contributed to concerns about increasing market power.
@@ -33,7 +34,7 @@ Yet, local trends may be more informative about market power, particularly in th
                <div class="links">[<a href="https://www.bls.gov/opub/mlr/2024/article/a-consumption-measure-for-automobiles.htm" target="_blank">Paper on BLS Website</a>]</div>
    <div class="summary"> In this article, we estimate consumption of automobiles by using a user-cost approach and data from the Consumer Expenditure Surveys Interview Survey (CE). The user-cost approach is a method for valuing the flow of services from long-lived goods. A key input into user cost is the depreciation of the good, which we estimate by using purchase data from the CE.</div>
 
-    <h2>Inactive Project</h2>
+## Inactive Project 
                 <div class="paper">Concentration and Foreign Sourcing in the U.S. Retail Sector </div>
                <div class="links">[<a href="{{site.baseurl}}/smith_jmp.pdf" rel="noopener noreferrer" target="_blank" onclick="ga('send','event',{eventCategory:'PDF',eventAction:'jmp',eventLabel:'S',eventValue:5});">Paper</a>]</div>
                <div class="summary">Results in this paper have been moved into other projects.</div>
