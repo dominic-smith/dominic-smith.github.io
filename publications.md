@@ -9,9 +9,12 @@ layout: default
   
 Extending the Range of Robust PCE Inflation Measures 
 {: .paper}
+
 [<a href="https://arxiv.org/pdf/2207.12494" rel="noopener noreferrer" target="_blank">Paper</a>][<a href="https://cepr.org/active/publications/discussion_papers/dp.php?dpno=17485" rel="noopener noreferrer" target="_blank">CEPR Discussion Paper</a>]</div>
+
 with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> and <a href="https://people.brandeis.edu/~schoenle/" rel="noopener noreferrer" target="_blank">Raphael Schoenle</a> 
 {: .coauthors}
+
 We evaluate the forecasting performance of a wide set of robust inflation measures between 1960 and 2022, including official median and trimmed-mean personal-consumption-expenditure inflation. When trimming out different expenditure categories with the highest and lowest inflation rates, we find that the optimal trim points vary widely across time and also depend on the choice of target; optimal trims are higher when targeting future trend inflation or for a 1970s-1980s subsample. Surprisingly, there are no grounds to select a single series on the basis of forecasting performance. A wide range of trims-including those of the official robust measures-have an average prediction error that makes them  statistically indistinguishable from the best-performing trim. Despite indistinguishable average errors, these trims imply different predictions for trend inflation in any given month, within a range of 0.5 to 1 percentage points, suggesting the use of a set of near-optimal trims. 
 {: .summary}
   
