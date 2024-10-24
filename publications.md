@@ -8,7 +8,7 @@ layout: default
 ## Work in Progress
   
 Extending the Range of Robust PCE Inflation Measures 
-{: .paper}
+{: #paper}
 
 [<a href="https://arxiv.org/pdf/2207.12494" rel="noopener noreferrer" target="_blank">Paper</a>][<a href="https://cepr.org/active/publications/discussion_papers/dp.php?dpno=17485" rel="noopener noreferrer" target="_blank">CEPR Discussion Paper</a>]</div>
 
