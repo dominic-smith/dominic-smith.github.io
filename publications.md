@@ -1,3 +1,10 @@
+---
+layout: page
+title: Publications
+mathjax: true
+permalink: /Publications/
+---
+
 ## Work in Progress
   
 Extending the Range of Robust PCE Inflation Measures {.paper} 
