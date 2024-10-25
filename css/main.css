@@ -1,30 +1,26 @@
-html {overflow-y: scroll;}
-body {
-  width: 95%;
-  background: #fff;
-  margin: auto;
-  font-size: 16px;
+html {
+    overflow-y: scroll
 }
 
+body {
+    width: 95%;
+    background: #fff;
+    margin: auto;
+    font-size: 16px
+}
 
 p {
-  font-size: 18px;
+    font-size: 18px
 }
-
-
-.textbody {
-  clear: both;
-}
-
 
 footer {
-   bottom : 2px;
-   height : 40px;
-   margin-top : 40px;
-   text-align: center;
-   vertical-align: middle;
-   width:100%;
-   clear:both;
+    bottom: 2px;
+    height: 40px;
+    margin-top: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    clear: both
 }
 
 figure {
@@ -32,235 +28,173 @@ figure {
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 10px;
-    margin-inline-end: 10px;
+    margin-inline-end: 10px
 }
 
-
-.header ul
-{
-  margin:0;
-  padding:0px 0px 0px 25px;
-  list-style:none;
-  text-align: left;
-  font-size: 16pt;
-  font-weight:bold;
-  display: block;
-
-
+.header ul {
+    margin: 0;
+    padding: 0 0 0 25px;
+    list-style: none;
+    text-align: left;
+    font-size: 16pt;
+    font-weight: 700;
+    display: block
 }
-
 
 .header li a {
+    display: block
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff
+}
+
+.header a span {
+    float: center;
     display: block;
-}
-.header a
-{
-  text-decoration:none;
-  color:#fff;
-}
-.header a span
-{
-  float:center;
-  display:block;
-  padding:0px 65px 4px 0px;
-  background:#333 ;
+    padding: 0 65px 4px 0;
+    background: #333
 }
 
-.header a:hover, .header a:hover span {
-  color:#ddd;
-
+.header a:hover,
+.header a:hover span {
+    color: #ddd
 }
 
 #center .picture {
-  padding-left: 25px;
+    padding-left: 25px
 }
 
 h3 {
-  font-size: 18pt;
+    font-size: 18pt
 }
 
 img {
     max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
+    height: auto
 }
 
 .paper {
-  /*font-family: 'Open Sans', sans-serif;*/
-    /*font-weight: 400; */
-    font-weight: bold;
-    font-size: 110%;
-
-}
-.paper2 {
-  /*font-family: 'Open Sans', sans-serif;*/
-    /*font-weight: 400; */
-    /*font-weight: bold; */
-
+    font-weight: 700;
+    font-size: 110%
 }
 
 .coauthors {
-  font-style: italic;
-  padding-bottom: 2px;
-/*  padding-left: 5px; */
+    font-style: italic;
+    padding-bottom: 2px
 }
 
 .links {
-/* float:left; */
-  font-size: 100%;
- /*   text-decoration: underline;*/
-    padding-left: 20px;
-
+    font-size: 100%;
+    padding-left: 20px
 }
+
 .summary {
     padding-top: 5px;
-     padding-left: 20px;
-    color: #444444;
+    padding-left: 20px;
+    color: #444;
     font-size: 110%;
-    padding-bottom: 20px;
-
+    padding-bottom: 20px
 }
-
-figcaption {
-  font-size: 85%;
-  text-align: center;
-}
-
-
 
 div.header {
-  /*font-family: 'Arimo', sans-serif;*/
-  font-family: 'Open Sans', sans-serif;
-  background:#fff url('head.jpg') no-repeat top left;
-  background:#333 ;
-  color:#fff;
-  /*height:270px;*/
-  margin:0px;
-  padding:5px 60px;
-  text-align:right;
-  border-style:none none solid none;
-  border-width:0px;
-
+    font-family: 'Open Sans', sans-serif;
+    background: #fff url(https://dominic-smith.com/css/head.jpg) no-repeat top left;
+    background: #333;
+    color: #fff;
+    margin: 0;
+    padding: 5px 60px;
+    text-align: right;
+    border-style: none none solid none;
+    border-width: 0
 }
 
 div.main {
-  padding: 10px;
-  margin-left: 7%;
-  margin-right: 7%;
-  color: #666666;
-  line-height: 135%;
-  font-size: 95%;
+    padding: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
+    color: #666;
+    line-height: 135%;
+    font-size: 95%
 }
-.header_txt{
-    /*font-family: 'Arimo', sans-serif; font-weight: 400; */
-    /*font-family: 'Open Sans', sans-serif;*/
-    /*padding-top: -10px;*/
-    line-height: 140%;
 
+.header_txt {
+    line-height: 140%
 }
+
 .container {
-    /*max-width:800px;*/
-    margin:20px auto;
-    background:#333;
-    padding-bottom: 30px;
+    margin: 20px auto;
+    background: #333;
+    padding-bottom: 30px
 }
 
 h1 {
-    /*font-family: 'Arimo', sans-serif; font-weight: 700; */
-    /*font-family: 'Open Sans', sans-serif;*/
     font-weight: 600;
     font-size: 300%;
     line-height: 100%;
     text-align: left;
-    float:left;
+    float: left
 }
 
-
 .menu {
-  font-size: 16pt;
+    font-size: 16pt
 }
 
 .list li {
-  padding-bottom: 8px;
-  margin-left: 10px;
-  font-size: 18pt;
-
+    padding-bottom: 8px;
+    margin-left: 10px;
+    font-size: 18pt
 }
 
 div.main_text {
-  padding-left: 20px;
-  padding-right: 10px;
-
-
+    padding-left: 20px;
+    padding-right: 10px
 }
 
-.figures {
-  text-size: 90%;
-  font-weight: 200;
+@media (min-width:680px) {
+    body {
+        max-width: 1200px;
+        vertical-align: middle
+    }
 
+    div.main_text {
+        padding-left: 50px;
+        padding-right: 50px
+    }
+
+    .header li {
+        display: inline
+    }
+
+    .picture {
+        float: left;
+        width: 50%
+    }
+
+    .header ul {
+        padding: 0;
+        list-style: none
+    }
+
+    .contact {
+        float: left;
+        width: 50%
+    }
+
+    .header a span {
+        float: left
+    }
+
+    #research {
+        float: left
+    }
 }
 
-.column {
-  width: 100%;
+my-email::after {
+    content: attr(data-domain)
 }
 
-@media (min-width: 680px) {
-  body {
-  max-width: 1200px;
-  vertical-align: middle;
-}
-div.main_text {
-  padding-left: 50px;
-  padding-right: 50px;
-
-
-}
-.header li
-{
-  display:inline;
-}
-.picture
-{
-  float:left;
-  width: 50%;
-
-}
-.header ul
-{
-  padding:0px 0px 0px 0px;
-  list-style: none;
-
-}
-.contact {
-  float:left;
-  width: 50%;
-}
-.header a span
-{
-  float:left;
-}
-
-#research {
-  float:left;
-}
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 50%;
-}
-
-#special {
-  width: 160%;
-
-}
-
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
+my-email::before {
+    content: attr(data-user) "\0040"
 }
