@@ -6,11 +6,11 @@ layout: default
 ---
 
 
-# NEXT DATE: July 3, 2025 
+## NEXT DATE: July 3, 2025 
 Location: Van Aken District
 Time: 5:30-7
 
-# Future Dates:
+## Future Dates:
 * August 1
 * September 5
 * October 3
