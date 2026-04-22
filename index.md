@@ -35,6 +35,11 @@ layout: default
     <a name="research"></a>
 
 <h2>Work in Progress</h2>
+
+<div class="paper">Antitrust on Aisle Five: How Well Do Divestiture Remedies Work?<br>[<a href="https://arxiv.org/abs/2604.15045" rel="noopener noreferrer" target="_blank">Paper</a>]</div>
+  <div class="coauthors">with <a href="https://www.ftc.gov/about-ftc/commissioners-staff/xiao-dong" rel="noopener noreferrer" target="_blank">Xiao Dong</a>, <a href="https://www.pskoh.com" rel="noopener noreferrer" target="_blank">Paul Koh</a>, <a href="https://www.devesh-raval.com" rel="noopener noreferrer" target="_blank">Devesh Raval</a>, <a href="https://scholar.google.com/citations?user=QBuHhx4AAAAJ&hl=en" rel="noopener noreferrer" target="_blank">Brett Wendling</a>
+
+Antitrust authorities frequently rely on structural divestitures to address competitive concerns raised by mergers. Using census-level establishment data and proprietary transaction records from the U.S. grocery sector, we provide systematic evidence on the long-run effects of such remedies. Divested stores experience an average 31 percent decline in employment over five years, driven by elevated exit rates and persistent contraction among surviving establishments. Sales similarly decline. Transaction-level evidence indicates that divested assets are systematically weaker and are often transferred to lower-capability buyers. These findings suggest that structural remedies may be less effective when the implementation of divestitures allows merging parties substantial discretion over the assets and buyers involved.
   
   <div class="paper">Extending the Range of Robust PCE Inflation Measures (R&R International Journal of Central Banking) <br> [<a href="https://arxiv.org/pdf/2207.12494" rel="noopener noreferrer" target="_blank">Paper</a>][<a href="https://cepr.org/active/publications/discussion_papers/dp.php?dpno=17485" rel="noopener noreferrer" target="_blank">CEPR Discussion Paper</a>]</div>
                 <div class="coauthors"> with <a href="https://sites.google.com/site/sergiocampod" rel="noopener noreferrer" target="_blank">Sergio Ocampo</a> and <a href="https://people.brandeis.edu/~schoenle/" rel="noopener noreferrer" target="_blank">Raphael Schoenle</a> </div>
