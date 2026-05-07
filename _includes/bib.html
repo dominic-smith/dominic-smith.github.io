@@ -1,0 +1,11 @@
+<li class="pub-item">
+  <span class="pub-authors">{% if entry.author %}{{ entry.author }}{% endif %}</span>
+  {% if entry.year %} (<span class="pub-year">{{ entry.year }}</span>).{% endif %}
+  {% if entry.title %} <span class="pub-title">“{{ entry.title }}”</span>{% endif %}
+  {% if entry.journal %} <em class="pub-journal">{{ entry.journal }}</em>{% endif %}
+  {% if entry.institution and entry.journal == nil %} <em class="pub-institution">{{ entry.institution }}</em>{% endif %}
+  {% if entry.volume %} <span class="pub-volume">{{ entry.volume }}</span>{% endif %}{% if entry.number %}(<span class="pub-number">{{ entry.number }}</span>){% endif %}{% if entry.pages %}: <span class="pub-pages">{{ entry.pages }}</span>{% endif %}.
+  {% if entry.doi %}<a class="doi" href="https://doi.org/{{ entry.doi }}" rel="noopener" aria-label="DOI {{ entry.doi }}">doi:{{ entry.doi }}</a>{% endif %}
+  {% if entry.url and entry.url != 'https://doi.org/' | append: entry.doi %}<a class="link" href="{{ entry.url }}" rel="noopener">link</a>{% endif %}
+  {% if entry.abstract %}<details class="pub-abstract"><summary>Abstract</summary><p>{{ entry.abstract }}</p></details>{% endif %}
+</li>

@@ -1,0 +1,24 @@
+# Dominic Smith
+
+> Research Economist at the U.S. Bureau of Labor Statistics and Adjunct Professor at Case Western Reserve University. Research focuses on inflation, U.S. retail sector, trade prices, and economic measurement.
+
+## Contact
+- Email: ds@dominic-smith.com
+- Bluesky: https://bsky.app/profile/dominicsmith.bsky.social
+- Google Scholar: https://scholar.google.com/citations?user=Ie6aam0AAAAJ&hl=en
+
+## Research Areas
+Inflation measurement, retail sector dynamics, productivity, trade price indexes, market concentration, antitrust
+
+## Working Papers
+- Antitrust on Aisle Five: How Well Do Divestiture Remedies Work? (with Xiao Dong, Paul Koh, Devesh Raval, Brett Wendling) — https://arxiv.org/abs/2604.15045
+- Extending the Range of Robust PCE Inflation Measures (R&R, International Journal of Central Banking; with Sergio Ocampo, Raphael Schoenle) — https://arxiv.org/abs/2207.12494
+- National Chains and Trends in Retail Productivity Dispersion (with Jake Blackwood, Michael Giandrea, Cheryl Grim, Jay Stewart, Zoltan Wolf) — https://www.bls.gov/osmr/research-papers/2023/ec230100.htm
+- Productivity Dispersion and Structural Change in Retail Trade (with Jake Blackwood, Michael Giandrea, Cheryl Grim, Jay Stewart, Zoltan Wolf) — https://www2.census.gov/library/working-papers/2023/adrm/ces/CES-WP-23-60R.pdf
+
+## Publications
+- The Evolution of U.S. Retail Concentration (with Sergio Ocampo) — American Economic Journal: Macroeconomics, 2025 — https://www.aeaweb.org/articles?id=10.1257/mac.20220249
+- A Consumption Measure for Motor Vehicles (with Caleb Cho, Brett Matsumoto) — Monthly Labor Review, 2024 — https://www.bls.gov/opub/mlr/2024/article/a-consumption-measure-for-automobiles.htm
+- Enhancing Import and Export Price Indexes: A New Methodology Using Administrative Trade Data (with Austin Enderson-Ohrt, Matthew Fisher, Christopher Grant, Angel Wong, Benjamin Wullbrandt) — BLS Working Paper, 2024 — https://www.bls.gov/osmr/research-papers/2024/pdf/ec240080.pdf
+- Unit Value Indexes for Exports: New Developments Using Administrative Trade Data (with Don Fast, Susan Fleck) — Journal of Official Statistics, 2022 — https://doi.org/10.2478/jos-2022-0005
+- The Scope of U.S. Factoryless Manufacturing (with Kimberly Bayard, David Byrne) — 2015 — http://research.upjohn.org/cgi/viewcontent.cgi?filename=13&article=1250&context=up_press&type=additional

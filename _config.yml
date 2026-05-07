@@ -1,0 +1,48 @@
+title: Dominic Smith
+name: Dominic Smith
+description: "Research Economist at the U.S. Bureau of Labor Statistics and Adjunct Professor at Case Western Reserve University."
+url: "https://dominic-smith.github.io" # Update USERNAME
+baseurl: "" # e.g. /site if needed
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-scholar
+
+permalink: pretty
+
+# Navigation structure (used by nav include)
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /#research
+  - title: Teaching
+    url: /teaching/
+  - title: CV
+    url: /assets/cv/dominic_smith_cv.pdf
+
+# Author info
+author:
+  name: Dominic Smith
+  email: ds@dominic-smith.com
+
+seo:
+  twitter_card: summary
+  type: website
+
+# Future additions for scholar or analytics can go here
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+  sort_by: year
+  order: descending
+  suppress_frontmatter: true

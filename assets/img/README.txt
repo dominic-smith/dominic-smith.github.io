@@ -1,0 +1,1 @@
+Place image assets (profile photo, figures, logos) in this directory. Use descriptive filenames and include alt text when embedding for accessibility.
