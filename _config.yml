@@ -1,7 +1,7 @@
 title: Dominic Smith
 name: Dominic Smith
 description: "Research Economist at the U.S. Bureau of Labor Statistics and Adjunct Professor at Case Western Reserve University."
-url: "https://dominic-smith.github.io" # Update USERNAME
+url: "https://dominic-smith.com"
 baseurl: "" # e.g. /site if needed
 
 markdown: kramdown
@@ -12,9 +12,23 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-scholar
 
 permalink: pretty
+
+# Papers are the single source of truth for every publication listing on the
+# site: the home page research section, /publications/, the per-paper landing
+# pages (which carry the Google Scholar citation_ meta tags), and references.bib.
+collections:
+  papers:
+    output: true
+    permalink: /papers/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: papers
+    values:
+      layout: paper
 
 # Navigation structure (used by nav include)
 nav:
@@ -36,13 +50,14 @@ seo:
   twitter_card: summary
   type: website
 
-# Future additions for scholar or analytics can go here
-scholar:
-  style: apa
-  locale: en
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: bib
-  sort_by: year
-  order: descending
-  suppress_frontmatter: true
+# Section headings for the research listings, in display order. The `key` must
+# match the `section` field in each _papers entry.
+paper_sections:
+  - key: working
+    title: Work in Progress
+  - key: publications
+    title: Publications
+  - key: in-progress
+    title: In-Progress Research
+  - key: resting
+    title: Resting Papers

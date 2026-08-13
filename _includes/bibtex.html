@@ -1,0 +1,44 @@
+{%- comment -%}
+Emits a BibTeX entry for one paper, generated from its front matter so the
+citation on the landing page and the entry in /assets/bib/references.bib can
+never drift apart. Included by _layouts/paper.html and assets/bib/references.bib.
+{%- endcomment -%}
+{%- assign p = include.paper -%}
+@{{ p.bibtype | default: "article" }}{{ "{" }}{{ p.bibkey }},
+  title     = {{ "{" }}{{ p.citation_title | default: p.title }}},
+  author    = {{ "{" }}{% for a in p.authors %}{{ a.cite | default: a.name }}{% unless forloop.last %} and {% endunless %}{% endfor %}},
+{%- if p.journal %}
+  journal   = {{ "{" }}{{ p.journal }}},
+{%- endif %}
+{%- if p.booktitle %}
+  booktitle = {{ "{" }}{{ p.booktitle }}},
+{%- endif %}
+{%- if p.institution %}
+  institution = {{ "{" }}{{ p.institution }}},
+{%- endif %}
+{%- if p.report_type %}
+  type      = {{ "{" }}{{ p.report_type }}},
+{%- endif %}
+{%- if p.report_number %}
+  number    = {{ "{" }}{{ p.report_number }}},
+{%- elsif p.issue %}
+  number    = {{ "{" }}{{ p.issue }}},
+{%- endif %}
+{%- if p.volume %}
+  volume    = {{ "{" }}{{ p.volume }}},
+{%- endif %}
+{%- if p.firstpage %}
+  pages     = {{ "{" }}{{ p.firstpage }}--{{ p.lastpage }}},
+{%- endif %}
+{%- if p.publisher %}
+  publisher = {{ "{" }}{{ p.publisher }}},
+{%- endif %}
+  year      = {{ "{" }}{{ p.year }}},
+{%- if p.doi %}
+  doi       = {{ "{" }}{{ p.doi }}},
+{%- endif %}
+{%- assign primary = p.links | first %}
+{%- if primary %}
+  url       = {{ "{" }}{{ primary.url }}},
+{%- endif %}
+}

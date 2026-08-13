@@ -6,15 +6,22 @@ permalink: /cv/
 
 ## Curriculum Vitae
 
-Provide a short summary and link to a downloadable PDF.
+Research Economist in the Division of Price Index Number Research at the U.S.
+Bureau of Labor Statistics, and Adjunct Faculty at Case Western Reserve
+University.
 
 [Download CV (PDF)](/assets/cv/dominic_smith_cv.pdf)
 
 ### Education
-- Ph.D. Placeholder Field, Placeholder University (Year–Year)
+- Ph.D. Economics, University of Minnesota (2013–2019)
+- M.A. Economics, University of Minnesota (2013–2018)
+- Master in Economics, Collegio Carlo Alberto (2010)
+- B.A. Economics with honors, Case Western Reserve University (2005–2009)
 
-### Experience
-- Position – Organization (Year–Year)
+### Employment and Affiliations
+- Research Economist, U.S. Bureau of Labor Statistics (2019–present)
+- Adjunct Faculty, Case Western Reserve University (2024–present)
+- Member, Conference on Research in Income and Wealth (2024–present)
 
 ### Honors & Awards
-- Award Name (Year)
+- Summers Fellow, CRIW Summer Meeting (2025)

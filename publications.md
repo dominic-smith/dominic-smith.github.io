@@ -4,17 +4,17 @@ title: Publications
 permalink: /publications/
 ---
 
-## Publications
+Every paper below has its own page carrying full citation metadata. A combined
+BibTeX file is available at the bottom.
 
-<h3>Journal Articles</h3>
-{% bibliography --query @article --template bib %}
+{% for section in site.paper_sections %}
+{%- assign papers = site.papers | where: "section", section.key | sort: "weight" %}
+{%- if papers.size > 0 %}
+### {{ section.title }}
 
-<h3>Working Papers</h3>
-{% bibliography --query @unpublished --template bib %}
+{% for paper in papers %}{% include paper-entry.html paper=paper %}
+{% endfor %}
+{%- endif %}
+{%- endfor %}
 
-<details>
-	<summary>Download BibTeX</summary>
-	<pre>{% bibliography %}</pre>
-</details>
-
-> Managed automatically via `jekyll-scholar`. Edit entries in `_bibliography/references.bib`.
+<p><a href="/assets/bib/references.bib">Download all references (.bib)</a></p>

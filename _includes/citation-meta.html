@@ -1,0 +1,63 @@
+{%- comment -%}
+Google Scholar bibliographic meta tags (Highwire Press scheme), per
+https://scholar.google.com/intl/en/scholar/inclusion.html#indexing
+
+Scholar requires title + at least one author + publication date, and reads only
+ONE article per page — which is why these live on the per-paper landing pages
+and not on the multi-paper listings. `citation_pdf_url` must be an absolute URL
+pointing at a searchable-text PDF.
+{%- endcomment -%}
+{%- assign p = include.paper -%}
+{%- comment -%}
+`listing_only` marks entries with no circulating full text (in-progress work,
+retired papers). Jekyll auto-assigns collection documents a date from the file
+mtime, so these would otherwise be advertised to Scholar with a meaningless
+publication date and no paper behind them.
+{%- endcomment -%}
+{%- if p.date and p.authors and p.listing_only != true -%}
+<meta name="citation_title" content="{{ p.citation_title | default: p.title | escape }}" />
+{%- for a in p.authors %}
+<meta name="citation_author" content="{{ a.cite | default: a.name | escape }}" />
+{%- endfor %}
+<meta name="citation_publication_date" content="{{ p.date | date: '%Y/%m/%d' }}" />
+{%- if p.journal %}
+<meta name="citation_journal_title" content="{{ p.journal | escape }}" />
+{%- endif %}
+{%- if p.booktitle %}
+<meta name="citation_inbook_title" content="{{ p.booktitle | escape }}" />
+{%- endif %}
+{%- if p.publisher %}
+<meta name="citation_publisher" content="{{ p.publisher | escape }}" />
+{%- endif %}
+{%- if p.institution %}
+<meta name="citation_technical_report_institution" content="{{ p.institution | escape }}" />
+{%- endif %}
+{%- if p.report_number %}
+<meta name="citation_technical_report_number" content="{{ p.report_number | escape }}" />
+{%- endif %}
+{%- if p.volume %}
+<meta name="citation_volume" content="{{ p.volume }}" />
+{%- endif %}
+{%- if p.issue %}
+<meta name="citation_issue" content="{{ p.issue }}" />
+{%- endif %}
+{%- if p.firstpage %}
+<meta name="citation_firstpage" content="{{ p.firstpage }}" />
+{%- endif %}
+{%- if p.lastpage %}
+<meta name="citation_lastpage" content="{{ p.lastpage }}" />
+{%- endif %}
+{%- if p.doi %}
+<meta name="citation_doi" content="{{ p.doi }}" />
+{%- endif %}
+{%- if p.arxiv %}
+<meta name="citation_arxiv_id" content="{{ p.arxiv }}" />
+{%- endif %}
+{%- if p.abstract %}
+<meta name="citation_abstract" content="{{ p.abstract | escape }}" />
+{%- endif %}
+<meta name="citation_abstract_html_url" content="{{ p.url | absolute_url }}" />
+{%- if p.pdf %}
+<meta name="citation_pdf_url" content="{{ p.pdf | absolute_url }}" />
+{%- endif %}
+{%- endif -%}

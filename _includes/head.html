@@ -6,6 +6,7 @@
 <link rel="icon" href="/assets/img/favicon.png" type="image/png" />
 <link rel="stylesheet" href="/assets/css/style.css" />
 {% seo %}
+{%- if page.collection == "papers" %}{% include citation-meta.html paper=page %}{% endif %}
 <script defer src="/assets/js/main.js"></script>
 <script type="application/ld+json">
 {
@@ -18,8 +19,9 @@
   "email": "ds@dominic-smith.com",
   "sameAs": [
     "https://bsky.app/profile/dominicsmith.bsky.social",
-    "https://twitter.com/dominic_a_smith",
-    "https://scholar.google.com/citations?user=Ie6aam0AAAAJ&hl=en"
+    "https://github.com/dominic-smith",
+    "https://scholar.google.com/citations?user=Ie6aam0AAAAJ&hl=en",
+    "https://ideas.repec.org/e/psm160.html"
   ]
 }
 </script>

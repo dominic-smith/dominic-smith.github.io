@@ -1,0 +1,10 @@
+---
+permalink: /assets/bib/references.bib
+---
+{% comment %}Generated from the _papers collection — do not edit by hand.{% endcomment %}
+{%- assign papers = site.papers | sort: "year" | reverse -%}
+{%- for paper in papers -%}
+{%- if paper.bibkey %}
+{% include bibtex.html paper=paper %}
+{%- endif -%}
+{%- endfor %}

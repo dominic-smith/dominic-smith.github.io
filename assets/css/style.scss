@@ -54,6 +54,33 @@ p:has(+ .paper-authors) strong { font-size: 1.0rem; }
 /* Research section */
 #research { clear: both; }
 
+/* Per-paper landing pages */
+.paper-byline { font-size: .95rem; margin: 0 0 .25rem; }
+.paper-venue { font-size: .95rem; color: $muted; margin: 0 0 1.25rem; }
+.paper-note { font-size: .85rem; color: $muted; font-style: italic; }
+.paper-links a {
+  display: inline-block;
+  background: #eef2ff;
+  color: #3b5bdb;
+  padding: .1rem .45rem;
+  border-radius: 4px;
+  font-size: .78rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 .15rem .15rem 0;
+}
+.paper-links a:hover { background: #dde5ff; text-decoration: none; }
+pre.bibtex {
+  background: $nav-bg;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: .9rem 1rem;
+  overflow-x: auto;
+  font-size: .82rem;
+  line-height: 1.5;
+}
+.paper-back { margin-top: 2.5rem; font-size: .9rem; }
+
 /* Footer */
 .site-footer { text-align: center; font-size: .85rem; padding: 2rem 0; color: $muted; border-top: 1px solid #e2e8f0; margin-top: 3rem; }
 .site-footer a { color: $muted; }

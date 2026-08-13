@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{%- assign coauthors = page.authors | where_exp: "a", "a.self != true" -%}
+<article class="paper">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    <p class="paper-byline">{% for a in page.authors %}{% if forloop.last and page.authors.size > 1 %}and {% endif %}{% if a.url %}<a href="{{ a.url }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}{% if page.authors.size > 2 %}, {% else %} {% endif %}{% endunless %}{% endfor %}</p>
+    <p class="paper-venue">
+      {%- if page.journal %}<em>{{ page.journal }}</em>{% if page.volume %}, {{ page.volume }}{% if page.issue %}({{ page.issue }}){% endif %}{% endif %}{% if page.firstpage %}, {{ page.firstpage }}–{{ page.lastpage }}{% endif %}, {{ page.year }}
+      {%- elsif page.booktitle %}In <em>{{ page.booktitle }}</em>{% if page.publisher %}. {{ page.publisher }}{% endif %}, {{ page.year }}
+      {%- elsif page.institution %}{{ page.report_type | default: "Working Paper" }}{% if page.report_number %} {{ page.report_number }}{% endif %}, {{ page.institution }}, {{ page.year }}
+      {%- else %}{{ page.status_note | default: "Working paper" }}, {{ page.year }}
+      {%- endif %}
+    </p>
+  </header>
+
+  <p class="paper-links">
+    {%- if page.pdf %}<a href="{{ page.pdf | relative_url }}">PDF</a> {% endif -%}
+    {%- for l in page.links %}<a href="{{ l.url }}">{{ l.label }}</a> {% endfor -%}
+    {%- if page.doi %}<a href="https://doi.org/{{ page.doi }}">doi:{{ page.doi }}</a>{% endif -%}
+  </p>
+  {%- if page.pdf and page.pdf_note %}
+  <p class="paper-note">{{ page.pdf_note }}</p>
+  {%- endif %}
+
+  {%- if page.abstract %}
+  <h2>Abstract</h2>
+  <p>{{ page.abstract | escape_once }}</p>
+  {%- endif %}
+  {%- if page.note %}
+  <p>{{ page.note | escape_once }}</p>
+  {%- endif %}
+
+  {{ content }}
+
+  {%- if page.bibkey %}
+  <h2>Cite</h2>
+  <pre class="bibtex"><code>{% include bibtex.html paper=page %}</code></pre>
+  <p><a href="/assets/bib/references.bib">Download all references (.bib)</a></p>
+  {%- endif %}
+
+  <p class="paper-back"><a href="/publications/">← All papers</a></p>
+</article>
