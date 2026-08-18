@@ -29,7 +29,7 @@ layout: default
   <p>{{ page.abstract | escape_once }}</p>
   {%- endif %}
   {%- if page.note %}
-  <p>{{ page.note | escape_once }}</p>
+  <p class="paper-note">{{ page.note | escape_once }}</p>
   {%- endif %}
 
   {{ content }}

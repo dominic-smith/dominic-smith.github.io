@@ -16,5 +16,5 @@ because style.scss keys the pill-button link styling off `p:has(+ .paper-authors
 <p>{{ p.abstract | escape_once }}</p>
 {%- endif %}
 {%- if p.note %}
-<p>{{ p.note | escape_once }}</p>
+<p class="paper-note">{{ p.note | escape_once }}</p>
 {%- endif %}
