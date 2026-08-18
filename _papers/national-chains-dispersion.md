@@ -2,13 +2,13 @@
 title: "National Chains and Trends in Retail Productivity Dispersion"
 section: working
 weight: 30
-date: 2023-01-01
-year: 2023
-bibkey: smith2023national
+date: 2025-09-01
+year: 2025
+bibkey: smith2025national
 bibtype: techreport
-institution: U.S. Bureau of Labor Statistics
-report_type: BLS Working Paper
-report_number: ec230100
+institution: Center for Economic Studies, U.S. Census Bureau
+report_type: CES Working Paper
+report_number: CES-WP-25-64
 authors:
   - name: Dominic Smith
     cite: "Smith, Dominic A."
@@ -28,11 +28,17 @@ authors:
   - name: Zoltan Wolf
     cite: "Wolf, Zoltan"
     url: https://newlighttechnologies.com/staff/zoltan-wolf
+pdf_url: https://www2.census.gov/ces/wp/2025/CES-WP-25-64.pdf
 links:
   - label: Working Paper
-    url: https://www.bls.gov/osmr/research-papers/2023/ec230100.htm
+    url: https://www2.census.gov/ces/wp/2025/CES-WP-25-64.pdf
   - label: Previous Version
     url: https://www2.census.gov/library/working-papers/2023/adrm/ces/CES-WP-23-60.pdf
+note: >-
+  This paper previously circulated as "Productivity Dispersion and Structural
+  Change in Retail Trade" (CES Working Paper 23-60, December 2023). The revised
+  CES Working Paper 23-60R keeps that earlier title but is a separate paper on
+  retail productivity growth, listed separately.
 abstract: >-
   Productivity dispersion within an industry is an important characteristic of
   the business environment, potentially reflecting factors such as market

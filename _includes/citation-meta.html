@@ -57,7 +57,15 @@ publication date and no paper behind them.
 <meta name="citation_abstract" content="{{ p.abstract | escape }}" />
 {%- endif %}
 <meta name="citation_abstract_html_url" content="{{ p.url | absolute_url }}" />
-{%- if p.pdf %}
-<meta name="citation_pdf_url" content="{{ p.pdf | absolute_url }}" />
+{%- comment -%}
+`pdf` is a site-relative path to a self-hosted copy and also renders as a PDF
+button; `pdf_url` is an absolute URL to the canonical PDF hosted elsewhere
+(arXiv, Census, BLS) and is metadata only, so it adds no duplicate button next
+to an existing link with a better label. Jekyll's absolute_url passes an
+already-absolute URL through unchanged, so both are safe here.
+{%- endcomment -%}
+{%- assign citation_pdf = p.pdf | default: p.pdf_url %}
+{%- if citation_pdf %}
+<meta name="citation_pdf_url" content="{{ citation_pdf | absolute_url }}" />
 {%- endif %}
 {%- endif -%}

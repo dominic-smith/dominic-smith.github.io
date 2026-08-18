@@ -13,7 +13,7 @@ Inflation measurement, retail sector dynamics, productivity, trade price indexes
 ## Working Papers
 - Antitrust on Aisle Five: How Well Do Divestiture Remedies Work? (with Xiao Dong, Paul Koh, Devesh Raval, Brett Wendling) — https://arxiv.org/abs/2604.15045
 - Extending the Range of Robust PCE Inflation Measures (R&R, International Journal of Central Banking; with Sergio Ocampo, Raphael Schoenle) — https://arxiv.org/abs/2207.12494
-- National Chains and Trends in Retail Productivity Dispersion (with Jake Blackwood, Michael Giandrea, Cheryl Grim, Jay Stewart, Zoltan Wolf) — https://www.bls.gov/osmr/research-papers/2023/ec230100.htm
+- National Chains and Trends in Retail Productivity Dispersion (with Jake Blackwood, Michael Giandrea, Cheryl Grim, Jay Stewart, Zoltan Wolf) — https://www2.census.gov/ces/wp/2025/CES-WP-25-64.pdf
 - Productivity Dispersion and Structural Change in Retail Trade (with Jake Blackwood, Michael Giandrea, Cheryl Grim, Jay Stewart, Zoltan Wolf) — https://www2.census.gov/library/working-papers/2023/adrm/ces/CES-WP-23-60R.pdf
 
 ## Publications
