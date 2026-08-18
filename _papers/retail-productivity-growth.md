@@ -32,17 +32,17 @@ authors:
 links:
   - label: Working Paper
     url: https://www2.census.gov/library/working-papers/2023/adrm/ces/CES-WP-23-60R.pdf
-  - label: BLS Working Paper
-    url: https://www.bls.gov/osmr/research-papers/2023/ec230100.htm
   - label: IARIW 2024
     url: https://iariw.org/wp-content/uploads/2024/08/Smith_Blackwood_Giandrea_Grim_Stewart_Wolf_2024-06-BLS-Working-Paper.pdf
   - label: ASSA 2025
     url: https://www.aeaweb.org/conference/2025/program/paper/t834Ns35
 note: >-
-  Revised July 2024; also released as BLS Working Paper WP-570 (June 2024). The
-  original CES Working Paper 23-60 (December 2023) shares this title but is an
-  earlier version of "National Chains and Trends in Retail Productivity
-  Dispersion", listed separately.
+  Revised July 2024; also released as a BLS working paper in June 2024. That
+  BLS working paper number has since been reused for "National Chains and
+  Trends in Retail Productivity Dispersion", so the IARIW copy linked here
+  is the stable link to the BLS version. The original CES Working Paper 23-60
+  (December 2023) shares this title but is an earlier version of the National
+  Chains paper, listed separately.
 abstract: >-
   The retail sector has changed from a sector full of small firms to one
   dominated by large, national firms. We study how this transformation has

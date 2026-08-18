@@ -32,12 +32,15 @@ pdf_url: https://www2.census.gov/ces/wp/2025/CES-WP-25-64.pdf
 links:
   - label: Working Paper
     url: https://www2.census.gov/ces/wp/2025/CES-WP-25-64.pdf
+  - label: BLS Working Paper
+    url: https://www.bls.gov/osmr/research-papers/2023/ec230100.htm
   - label: Previous Version
     url: https://www2.census.gov/library/working-papers/2023/adrm/ces/CES-WP-23-60.pdf
 note: >-
-  This paper previously circulated as "Productivity Dispersion and Structural
-  Change in Retail Trade" (CES Working Paper 23-60, December 2023). The revised
-  CES Working Paper 23-60R keeps that earlier title but is a separate paper on
+  Also released as BLS Working Paper 570 (September 30, 2025). This paper
+  previously circulated as "Productivity Dispersion and Structural Change in
+  Retail Trade" (CES Working Paper 23-60, December 2023). The revised CES
+  Working Paper 23-60R keeps that earlier title but is a separate paper on
   retail productivity growth, listed separately.
 abstract: >-
   Productivity dispersion within an industry is an important characteristic of
