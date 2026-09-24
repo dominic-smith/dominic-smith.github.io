@@ -19,7 +19,7 @@ publication date and no paper behind them.
 {%- for a in p.authors %}
 <meta name="citation_author" content="{{ a.cite | default: a.name | escape }}" />
 {%- endfor %}
-<meta name="citation_publication_date" content="{{ p.date | date: '%Y/%m/%d' }}" />
+<meta name="citation_publication_date" content="{% if p.citation_date %}{{ p.citation_date }}{% else %}{{ p.date | date: '%Y/%m/%d' }}{% endif %}" />
 {%- if p.journal %}
 <meta name="citation_journal_title" content="{{ p.journal | escape }}" />
 {%- endif %}

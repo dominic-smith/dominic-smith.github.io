@@ -7,7 +7,7 @@ because style.scss keys the pill-button link styling off `p:has(+ .paper-authors
 {%- assign p = include.paper -%}
 {%- assign coauthors = p.authors | where_exp: "a", "a.self != true" -%}
 <p><strong>{{ p.title }}</strong>{% if p.status_note %} ({{ p.status_note }}){% endif %}{% if p.journal %}<br />
-<em>{{ p.journal }}</em>, {{ p.year }}{% endif %}<br />
+<em>{{ p.journal }}</em>, {{ p.year_display | default: p.year }}{% endif %}<br />
 {% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a> {% endfor %}{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">PDF</a> {% endif %}{% unless p.listing_only %}<a href="{{ p.url | relative_url }}">Details</a>{% endunless %}</p>
 {%- if coauthors.size > 0 %}
 <p class="paper-authors">with {% for a in coauthors %}{% if forloop.last and coauthors.size > 1 %}and {% endif %}{% if a.url %}<a href="{{ a.url }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}{% if coauthors.size > 2 %}, {% else %} {% endif %}{% endunless %}{% endfor %}</p>

@@ -1,12 +1,15 @@
 ---
 title: "Extending the Range of Robust PCE Inflation Measures"
-section: working
-weight: 20
-date: 2022-07-25
-year: 2022
-status_note: "R&amp;R, <em>International Journal of Central Banking</em>"
-bibkey: ocampo2022extending
-bibtype: unpublished
+section: publications
+weight: 5
+date: 2026-01-01
+year: 2026
+year_display: accepted
+citation_date: "2026"
+journal: International Journal of Central Banking
+bibkey: ocampo2026extending
+bibtype: article
+bibnote: Accepted
 authors:
   - name: Sergio Ocampo
     cite: "Ocampo, Sergio"
@@ -18,7 +21,6 @@ authors:
     cite: "Smith, Dominic A."
     self: true
 arxiv: 2207.12494
-doi: 10.48550/arXiv.2207.12494
 pdf_url: https://arxiv.org/pdf/2207.12494
 links:
   - label: ArXiv

@@ -7,10 +7,10 @@ layout: default
     <h1>{{ page.title }}</h1>
     <p class="paper-byline">{% for a in page.authors %}{% if forloop.last and page.authors.size > 1 %}and {% endif %}{% if a.url %}<a href="{{ a.url }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}{% if page.authors.size > 2 %}, {% else %} {% endif %}{% endunless %}{% endfor %}</p>
     <p class="paper-venue">
-      {%- if page.journal %}<em>{{ page.journal }}</em>{% if page.volume %}, {{ page.volume }}{% if page.issue %}({{ page.issue }}){% endif %}{% endif %}{% if page.firstpage %}, {{ page.firstpage }}–{{ page.lastpage }}{% endif %}, {{ page.year }}
-      {%- elsif page.booktitle %}In <em>{{ page.booktitle }}</em>{% if page.publisher %}. {{ page.publisher }}{% endif %}, {{ page.year }}
-      {%- elsif page.institution %}{{ page.report_type | default: "Working Paper" }}{% if page.report_number %} {{ page.report_number }}{% endif %}, {{ page.institution }}, {{ page.year }}
-      {%- else %}{{ page.status_note | default: "Working paper" }}, {{ page.year }}
+      {%- if page.journal %}<em>{{ page.journal }}</em>{% if page.volume %}, {{ page.volume }}{% if page.issue %}({{ page.issue }}){% endif %}{% endif %}{% if page.firstpage %}, {{ page.firstpage }}–{{ page.lastpage }}{% endif %}, {{ page.year_display | default: page.year }}
+      {%- elsif page.booktitle %}In <em>{{ page.booktitle }}</em>{% if page.publisher %}. {{ page.publisher }}{% endif %}, {{ page.year_display | default: page.year }}
+      {%- elsif page.institution %}{{ page.report_type | default: "Working Paper" }}{% if page.report_number %} {{ page.report_number }}{% endif %}, {{ page.institution }}, {{ page.year_display | default: page.year }}
+      {%- else %}{{ page.status_note | default: "Working paper" }}, {{ page.year_display | default: page.year }}
       {%- endif %}
     </p>
   </header>
