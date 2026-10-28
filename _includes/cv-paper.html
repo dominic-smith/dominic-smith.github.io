@@ -1,0 +1,23 @@
+{%- comment -%}
+One paper on the CV. `kind` is the CV section key: publications | working |
+wip | reports. Formats follow the hand-made Pages CV this replaced.
+{%- endcomment -%}
+{%- assign p = include.paper -%}
+{%- assign primary = p.links | first -%}
+{%- assign href = primary.url | default: p.pdf | default: p.pdf_url -%}
+{%- capture title -%}{% if href and include.kind != "wip" %}<a href="{% if href contains '://' %}{{ href }}{% else %}{{ href | absolute_url }}{% endif %}"><em>{{ p.title }}</em></a>{% else %}<em>{{ p.title }}</em>{% endif %}{%- endcapture -%}
+{%- capture with -%}{% include cv-coauthors.html paper=p %}{%- endcapture -%}
+<p class="cv-entry">
+{%- case include.kind -%}
+{%- when "reports" -%}
+{{ title }}. {% if p.journal %}{{ p.cv_venue | default: p.journal }}, {{ p.date | date: "%B %Y" }}{% else %}{{ p.cv_venue | default: p.report_type }}{% if p.report_number %} {{ p.report_number }}{% endif %}. {{ p.year }}{% endif %}.{% if with != "" %} {{ with }}{% endif %}
+{%- when "publications" -%}
+{{ title }}<br />
+{%- if with != "" %}{{ with }}. {% endif -%}
+{%- if p.journal %}<em>{{ p.journal }}</em>{% if p.volume %} {{ p.volume }}{% if p.issue %}({{ p.issue }}){% endif %}{% endif %}{% if p.firstpage %}:{{ p.firstpage }}–{{ p.lastpage }}{% endif %} ({{ p.year_display | default: p.year }})
+{%- elsif p.booktitle %}In <em>{{ p.booktitle }}</em> ({{ p.year }})
+{%- else %}({{ p.year }}){% endif %}
+{%- else -%}
+{{ title }}{% if with != "" %}<br />{{ with }}{% endif %}
+{%- endcase -%}
+</p>

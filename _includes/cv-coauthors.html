@@ -1,0 +1,4 @@
+{%- assign _co = include.paper.authors | where_exp: "a", "a.self != true" -%}
+{%- if _co.size > 0 -%}
+with {% for a in _co %}{% if forloop.last and _co.size > 1 %}and {% endif %}{% include cv-person.html author=a %}{% unless forloop.last %}{% if _co.size > 2 %}, {% else %} {% endif %}{% endunless %}{% endfor %}
+{%- endif -%}

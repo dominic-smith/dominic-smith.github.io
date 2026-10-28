@@ -1,0 +1,3 @@
+{%- comment -%}"Last, First M." → "First M. Last" (CV coauthor style).{%- endcomment -%}
+{%- assign _parts = include.author.cite | default: include.author.name | split: ", " -%}
+{%- if _parts.size == 2 %}{{ _parts[1] }} {{ _parts[0] }}{% else %}{{ include.author.name }}{% endif -%}

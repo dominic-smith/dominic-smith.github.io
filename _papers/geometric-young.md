@@ -8,6 +8,8 @@ bibkey: endersonohrt2025geometric
 bibtype: article
 journal: Monthly Labor Review
 doi: 10.21916/mlr.2025.3
+cv_section: reports
+cv_venue: BLS Monthly Labor Review
 authors:
   - name: Austin Enderson-Ohrt
     cite: "Enderson-Ohrt, Austin"

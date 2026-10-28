@@ -1,0 +1,78 @@
+{%- comment -%}
+The whole CV. Non-paper content comes from _data/cv.yml; papers come from
+_papers/, filed by `cv_section` (defaulting from `section`; resting papers and
+anything with `cv: false` are left off). Rendered by /cv/ and /cv/print/.
+{%- endcomment -%}
+{%- assign cv = site.data.cv -%}
+{%- assign cv_papers = site.papers | where_exp: "p", "p.cv != false" -%}
+<div class="cv">
+  <p class="cv-date">{{ site.time | date: "%B %Y" }}</p>
+  <h1 class="cv-name">{{ cv.name | upcase }}</h1>
+  <div class="cv-contact">
+    <div>{% for line in cv.address %}{{ line }}<br />{% endfor %}</div>
+    <div>Email: <a href="mailto:{{ cv.email }}">{{ cv.email }}</a><br />Web:&nbsp; <a href="https://{{ cv.web }}">{{ cv.web }}</a></div>
+  </div>
+
+  <h2>Employment and Affiliations</h2>
+  {%- for e in cv.employment %}
+  <div class="cv-row cv-row-wide"><span class="cv-when">{{ e.years }}</span><span>{{ e.org }}{% for r in e.roles %}<br />{{ r }}{% endfor %}</span></div>
+  {%- endfor %}
+
+  <h2>Education</h2>
+  {%- for e in cv.education %}
+  <div class="cv-row"><span class="cv-when">{{ e.years }}</span><span>{{ e.school }}<br />{{ e.degree }}</span></div>
+  {%- endfor %}
+
+  {%- assign kinds = "publications,working,wip,reports" | split: "," -%}
+  {%- for kind in kinds %}
+    {%- assign items = "" | split: "" -%}
+    {%- for p in cv_papers -%}
+      {%- assign default_kind = p.section -%}
+      {%- if p.section == "in-progress" %}{% assign default_kind = "wip" %}{% endif -%}
+      {%- if p.section == "resting" %}{% assign default_kind = "none" %}{% endif -%}
+      {%- assign k = p.cv_section | default: default_kind -%}
+      {%- if k == kind %}{% assign items = items | push: p %}{% endif -%}
+    {%- endfor -%}
+    {%- if kind == "reports" %}{% assign items = items | sort: "date" | reverse %}{% else %}{% assign items = items | sort: "weight" %}{% endif -%}
+    {%- if items.size > 0 or kind == "reports" %}
+  <h2>{% case kind %}{% when "publications" %}Publications{% when "working" %}Working Papers{% when "wip" %}Work in Progress{% when "reports" %}BLS Writing and Technical Reports{% endcase %}</h2>
+      {%- for p in items %}
+  {% include cv-paper.html paper=p kind=kind %}
+      {%- endfor %}
+      {%- if kind == "reports" %}{% for r in cv.extra_reports %}
+  <p class="cv-entry"><a href="{{ r.url }}"><em>{{ r.title }}</em></a>. {{ r.venue }}.</p>
+      {%- endfor %}{% endif %}
+    {%- endif %}
+  {%- endfor %}
+
+  <h2>Awards</h2>
+  {%- for a in cv.awards %}
+  <div class="cv-row"><span class="cv-when"><em>{{ a.year }}</em></span><span>{{ a.text }}</span></div>
+  {%- endfor %}
+
+  <h2>Teaching Experience</h2>
+  <div class="cv-tight">
+  {%- for t in cv.teaching %}
+  <div class="cv-row"><span class="cv-when">{{ t.years }}</span><span>{{ t.text }}</span></div>
+  {%- endfor %}
+  </div>
+
+  <h2>Presentations</h2>
+  <div class="cv-tight">
+  {%- for t in cv.presentations %}
+  <div class="cv-row"><span class="cv-when">{{ t.year }}</span><span>{{ t.text }}</span></div>
+  {%- endfor %}
+  </div>
+  {%- if cv.presentations_note %}<p class="cv-footnote">{{ cv.presentations_note }}</p>{% endif %}
+
+  <h2>Other Service</h2>
+  {%- for s in cv.service %}
+  <p class="cv-entry">{{ s }}</p>
+  {%- endfor %}
+
+  <h2>Computer Skills</h2>
+  <p class="cv-entry">{{ cv.skills }}</p>
+
+  <h2>Language/Citizenship</h2>
+  <p class="cv-entry">{{ cv.language }}</p>
+</div>

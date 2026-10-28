@@ -9,6 +9,8 @@ bibtype: article
 journal: Monthly Labor Review
 doi: 10.21916/mlr.2024.3
 pdf: /assets/papers/motor-vehicles.pdf
+cv_section: reports
+cv_venue: BLS Monthly Labor Review
 authors:
   - name: Caleb Cho
     cite: "Cho, Caleb"

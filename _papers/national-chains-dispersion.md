@@ -1,14 +1,15 @@
 ---
-title: "National Chains and Trends in Retail Productivity Dispersion"
+title: "National Chains, Online Shopping, and Trends in Retail Productivity Dispersion"
 section: working
 weight: 30
-date: 2025-09-01
-year: 2025
-bibkey: smith2025national
+date: 2026-10-20
+year: 2026
+bibkey: smith2026national
 bibtype: techreport
-institution: Center for Economic Studies, U.S. Census Bureau
-report_type: CES Working Paper
-report_number: CES-WP-25-64
+institution: U.S. Bureau of Labor Statistics
+report_type: BLS Working Paper
+report_number: 594
+pdf: /assets/papers/national-chains-dispersion.pdf
 authors:
   - name: Dominic Smith
     cite: "Smith, Dominic A."
@@ -28,34 +29,37 @@ authors:
   - name: Zoltan Wolf
     cite: "Wolf, Zoltan"
     url: https://newlighttechnologies.com/staff/zoltan-wolf
-pdf_url: https://www2.census.gov/ces/wp/2025/CES-WP-25-64.pdf
 links:
   - label: Working Paper
+    url: https://www.bls.gov/osmr/research-papers/2026/ec260070.htm
+  - label: CES WP 25-64
     url: https://www2.census.gov/ces/wp/2025/CES-WP-25-64.pdf
-  - label: BLS Working Paper
+  - label: BLS WP 570
     url: https://www.bls.gov/osmr/research-papers/2023/ec230100.htm
-  - label: Previous Version
+  - label: CES WP 23-60
     url: https://www2.census.gov/library/working-papers/2023/adrm/ces/CES-WP-23-60.pdf
 note: >-
-  Also released as BLS Working Paper 570 (September 30, 2025). This paper
-  previously circulated as "Productivity Dispersion and Structural Change in
-  Retail Trade" (CES Working Paper 23-60, December 2023). The revised CES
-  Working Paper 23-60R keeps that earlier title but is a separate paper on
-  retail productivity growth, listed separately.
+  Previous versions circulated as "National Chains and Trends in Retail
+  Productivity Dispersion" (CES Working Paper 25-64 and BLS Working Paper 570,
+  2025) and "Productivity Dispersion and Structural Change in Retail Trade" (CES
+  Working Paper 23-60, December 2023). The revised CES Working Paper 23-60R keeps
+  that earlier title but is a separate paper on retail productivity growth,
+  listed separately.
 abstract: >-
-  Productivity dispersion within an industry is an important characteristic of
-  the business environment, potentially reflecting factors such as market
-  structure, production technologies, and reallocation frictions. The retail
-  trade sector saw significant changes between 1987 and 2017, and dispersion
-  statistics can help characterize how it evolved over this period. In this
-  paper, we shed light on this transformation by developing public-use Dispersion
-  Statistics on Productivity (DiSP) data for the retail sector for 1987 through
-  2017. We find that from 1987 through 2017, dispersion increased between retail
-  stores at the bottom and middle of the productivity distribution. However, when
-  we weight stores by employment dispersion, the middle of the distribution is
-  lower initially and decreases over time. These patterns are consistent with a
-  retail landscape featuring more and more activity taking place in chain stores
-  with similar productivity. Firm-based dispersion measures exhibit a similar
-  pattern. Further investigation reveals that there is substantial heterogeneity
-  in dispersion levels across industries.
+  Retail trade was transformed between 1987 and 2017: first, national chains
+  displaced single-store firms; then, activity began to shift to online sellers.
+  We show how this transformation reshaped the labor productivity distribution by
+  developing and analyzing new public-use dispersion statistics from the Census
+  of Retail Trade. Dispersion in the lower tail rose sharply, consistent with a
+  surviving fringe of small, less productive retailers. Dispersion in the middle
+  declined once stores were weighted by labor inputs—consistent with chains
+  expanding by opening large stores that resemble one another. Moreover,
+  industries with larger increases in the share of large firms experienced a
+  bigger decrease in productivity differences between the 90th and 50th
+  percentiles, but not in the tails of the productivity distribution. Our results
+  imply that business models account for a substantial share of productivity
+  differences. Evaluating these patterns in a single-input Hsieh–Klenow
+  framework, we find labor allocative efficiency rises and then falls below its
+  initial level—but the decline is entirely attributable to e-commerce, an
+  industry whose NAICS definition pools disparate production technologies.
 ---

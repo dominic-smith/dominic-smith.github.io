@@ -21,6 +21,13 @@ jobs:
         run: bundle install --path vendor/bundle
       - name: Build site
         run: bundle exec jekyll build -d _site
+      # The CV PDF is generated, never committed: print /cv/print/ (built from
+      # _papers/ and _data/cv.yml) so it can't drift from the site. Liberation
+      # Sans is the metric-compatible stand-in for Arial on Linux.
+      - name: Print CV to PDF
+        run: |
+          sudo apt-get install -y --no-install-recommends fonts-liberation
+          ./scripts/print-cv.sh
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

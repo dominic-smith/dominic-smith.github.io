@@ -11,6 +11,7 @@ institution: U.S. Bureau of Labor Statistics
 report_type: BLS Working Paper
 report_number: 578
 pdf_url: https://www.bls.gov/osmr/research-papers/2024/pdf/ec240080.pdf
+cv_section: reports
 authors:
   - name: Dominic Smith
     cite: "Smith, Dominic A."

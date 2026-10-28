@@ -1,0 +1,93 @@
+# Everything on the CV that ISN'T a paper. Papers come from _papers/ (see
+# cv_section there), so a new or updated paper reaches the CV automatically.
+# The CV page is /cv/; the PDF at /assets/cv/dominic_smith_cv.pdf is printed
+# from /cv/print/ by the deploy workflow on every push. Values may contain
+# inline HTML (e.g. <em>) for italics.
+
+name: Dominic A. Smith
+address:
+  - Division of Price Index Number Research
+  - Bureau of Labor Statistics
+email: ds@dominic-smith.com
+web: www.dominic-smith.com
+
+employment:
+  - years: 2019 - Present
+    org: Bureau of Labor Statistics
+    roles:
+      - "<em>Research Economist</em> (75% FTE from September 2024)"
+      - Temporary Industry Analyst - Producer Price Index (2025)
+  - years: 2024 - Present
+    org: Case Western Reserve University
+    roles:
+      - "<em>Adjunct Faculty</em>"
+  - years: 2024 - Present
+    org: Member, Conference on Research in Income and Wealth
+  - years: 2023 - Present
+    org: Recipe Tester, America’s Test Kitchen
+
+education:
+  - years: 2013-2019
+    school: University of Minnesota
+    degree: PhD in Economics
+  - years: 2013-2018
+    school: University of Minnesota
+    degree: MA in Economics
+  - years: "2010"
+    school: Collegio Carlo Alberto
+    degree: Master in Economics
+  - years: 2005-2009
+    school: Case Western Reserve University
+    degree: BA in Economics (with honors)
+
+# Reports that belong on the CV but have no page on the website. They render
+# in the "BLS Writing and Technical Reports" section after the papers there.
+extra_reports:
+  - title: Cleaning the Census of Retail Trade Product Lines Data
+    url: https://ideas.repec.org/p/cen/tnotes/22-14.html
+    venue: CES Technical Notes Series 22-14
+    year: 2022
+
+awards:
+  - year: "2025"
+    text: "<em>Summers Fellow,</em> CRIW Summer Meeting"
+
+teaching:
+  - years: 2014 - 2015
+    text: "<em>Head Teaching Assistant</em>, University of Minnesota"
+  - years: "2017"
+    text: "<em>Graduate Instructor</em> – Math Camp, University of Minnesota"
+  - years: "2019"
+    text: "<em>Writing Instructor</em> - University of Minnesota"
+  - years: 2024 - 2025
+    text: Intermediate Macroeconomics - Case Western Reserve University
+
+presentations:
+  - year: "2025"
+    text: Case Western Reserve University, American Economic Association Annual Meetings
+  - year: "2024"
+    text: Western University of Ontario, American Economic Association Annual Meetings, International Association for the Research in Income and Wealth, NBER SI CRIW Meeting*
+  - year: "2023"
+    text: Federal Statistical Research Data Center Conference, BLS Technical Advisory Committee, Midwest Economic Association
+  - year: "2022"
+    text: American Economic Association Annual Meetings, Midwest Economic Association, Society for Economic Dynamics, Bureau of Economic Analysis, BLS Technical Advisory Committee
+  - year: "2021"
+    text: NBER SI CRIW Meeting, Federal Statistical Research Data Center Seminar Series, International Industrial Organization Conference
+  - year: "2020"
+    text: George Washington University, Society for Government Economists*, International Industrial Organization Conference*, Committee on National Statistics - Retail Productivity Panel
+  - year: "2019"
+    text: Federal Trade Commission, Federal Reserve Bank of Cleveland, Society for Economic Dynamics, Kent State University
+  - year: "2018"
+    text: Federal Reserve Board of Governors, Center for Economic Studies, Research Data Center Conference
+  - year: "2017"
+    text: University of Michigan, Dartmouth College
+presentations_note: "* Presentation by coauthor"
+
+service:
+  - "Reviewer of <em>Understanding the Impact of Global Value Chains</em> for the National Academies of Sciences."
+  - "Referee: American Economic Journal: Applied; American Economic Review: Insights; Economics of Education Review; Journal of Money, Credit, and Banking; Review of Economics and Statistics"
+  - Federal Economic Statistics Advisory Committee Planning Committee (2024-2025)
+  - Comparative Analysis of Enterprise Data Program Committee
+
+skills: Matlab, Python, SAS, Stata, Julia, R
+language: English (native)/USA

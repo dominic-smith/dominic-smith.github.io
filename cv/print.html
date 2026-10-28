@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /cv/print/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex" />
+<title>{{ site.data.cv.name }} — CV</title>
+
+<style>
+  @page { size: letter; margin: 1in; }
+  html, body { margin: 0; background: #fff; }
+  {% include cv.css %}
+</style>
+</head>
+<body>
+{% include cv-body.html %}
+</body>
+</html>

@@ -34,8 +34,8 @@ links:
     url: https://www2.census.gov/library/working-papers/2023/adrm/ces/CES-WP-23-60R.pdf
 note: >-
   Revised July 2024. The original CES Working Paper 23-60 (December 2023)
-  shares this title but is an earlier version of "National Chains and Trends in
-  Retail Productivity Dispersion", listed separately.
+  shares this title but is an earlier version of "National Chains, Online
+  Shopping, and Trends in Retail Productivity Dispersion", listed separately.
 abstract: >-
   The retail sector has changed from a sector full of small firms to one
   dominated by large, national firms. We study how this transformation has
